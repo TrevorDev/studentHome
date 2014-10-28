@@ -1,5 +1,5 @@
 var config = require('./lib/config')
-//var database = require('./lib/database')
+var database = require('./lib/database')
 var logger = require('koa-logger')
 var router = require('koa-router')
 var serve = require('koa-static')
@@ -16,7 +16,7 @@ var fs = require('fs')
 var app = koa()
 
 //Add database
-// si = database.getSequelizeInstance()
+si = database.getSequelizeInstance()
 //si.sync()
 
 //var userCtrl = require('./controller/user')
