@@ -11,6 +11,8 @@
 
     <title></title>
 
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
     <!-- Bootstrap core CSS -->
     <link href="/public/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/public/custom/css/style.css" rel="stylesheet">
@@ -57,40 +59,7 @@
         <h1 style="margin-top:0px;text-align:center;font-weight:900;color:#8BD9E8;font-size:2em">Please enable javascript to use this website.</h1>
     </noscript>
     <div class="noscript-hide">
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container-wide">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">TITLE <i style="font-size:1.0em" class="glyphicon glyphicon-tint"></i></a>
-        </div>
-        <div class="navbar-collapse collapse">
-        	<ul class="nav navbar-nav">
-            <li class="active"><a href="/browse">ONE</a></li>
-            <li class="active"><a href="/create">TWO</a></li>
-            {% if email %}
-            <li class="active"><a href="/dashboard">Dashboard</a></li>
-            {% endif %}
-          </ul>
-          <!--<ul class="nav navbar-nav navbar-right">
-            {% if email %}
-              <li class="dropdown">
-                <a href="/dashboard"><i style="font-size:1.0em" class="fa fa-user"></i> {{email}}</b></a>
-              </li>
-              <li class="active"><a href="/logout">Logout</a></li>
-            {% else %}
-              <li class="active"><a href="/login">Login / Sign Up</a></li>
-            {% endif %}
-          </ul>-->
-        </div>
-      </div>
-    </div>
-
     <div id="errorDiv" class="alert alert-warning" style="display: none">Error: <span id="errorMsg"></span></div>
-
     {% block body %}{% endblock %}
     
     {% block script %}{% endblock %}
