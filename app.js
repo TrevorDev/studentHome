@@ -43,6 +43,7 @@ app.use(router(app))
 
 //PAGE ROUTES
 app.get('/', defaultPageLoad('index'))
+app.get('/dashboard', defaultPageLoad('dashboard'))
 //EXAMPLE http://localhost:3000/api/garbage/5/ZESS%20CRT
 app.get('/api/garbage/:number/:street', garbage.getGarbageDay)
 app.get('/api/park/:number/:street', park.getPark)

@@ -44,12 +44,18 @@ input {
 }
 
 input[type="text"] {
-    width:100%;
-    padding:5px;
+    width:30%;
+    padding:2px 5px;
+    float:left;
+    margin-right:20px;
 }
 
 input[type="submit"] {
     margin:auto;
+}
+
+select {
+
 }
 
 .center {
@@ -109,6 +115,26 @@ main#splashScreen form input[type="submit"]:hover {
 	background: -ms-linear-gradient(top,  rgba(111,148,188,1) 0%,rgba(110,155,188,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(111,148,188,1) 0%,rgba(110,155,188,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f94bc', endColorstr='#6e9bbc',GradientType=0 ); /* IE6-8 */
+}
+
+.searchableContainer {
+
+}
+
+.styledSelect select {
+   background: transparent;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: none;
+   height:44px;
+   min-width:280px;
+}
+
+.styledSelect {
+   background: none;
+   border: 1px solid #ccc;
+   height:44px;
 }
 
 /* =============================== Footer ================================= */
