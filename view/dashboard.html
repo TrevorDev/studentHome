@@ -7,20 +7,55 @@
     </div>
   </div>
 </div>
+<div class="left">
 
+<section id="transitSection">
+</section>
+</div>
+<div class="right">
+<section id="wasteSection">
+</section>
+
+<section id="parksSection">
+</section>
+</div>
 {% endblock %}
 
 {% block script %}
 <script type="text/javascript">
-	
 
-function homeCtrl($scope, $http) {
-	$scope.project = ["Hello", "World", "!"];
-}
+	var parkResult;
+	var parks;
+
+	function getQueryParams(qs) {
+		console.log(qs);
+	    qs = qs.split("+").join(" ");
+	    var params = {},
+	        tokens,
+	        re = /[?&]?([^=]+)=([^&]*)/g;
+
+	    while (tokens = re.exec(qs)) {
+	    	console.log(tokens[1] + " " + tokens[2]);
+	        params[decodeURIComponent(tokens[1])]
+	            = decodeURIComponent(tokens[2]);
+	    }
+	    return params;
+	}
+	var $_GET = getQueryParams(document.location.search);
+
+	$(function() {
+		$.ajax({
+			url: "/api/garbage/" + $_GET["number"] + "/" + $_GET["street"],
+			success: function(response) {
+				console.log("cool");
+				parkResult = response;
+			}
+		});
+	});
 </script>
 
-<script src="/socket.io/socket.io.js"></script>
+<!-- <script src="/socket.io/socket.io.js"></script>-->
 <script>
-  var socket = io();
+	//var socket = io();
 </script>
 {% endblock %}

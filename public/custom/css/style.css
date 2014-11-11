@@ -131,12 +131,6 @@ main#splashScreen form input[type="submit"]:hover {
    min-width:280px;
 }
 
-.styledSelect {
-   background: none;
-   border: 1px solid #ccc;
-   height:44px;
-}
-
 /* =============================== Footer ================================= */
 footer {
 	background:#6e9bbc;
