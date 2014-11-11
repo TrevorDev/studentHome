@@ -1,0 +1,830 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,goes_downtown,goes_uc
+2A-200_Guelph Central Station,200,Guelph Central Station.,,43.545180,-80.246050,,,,2,0
+2A-202_KFC on Wellington St.,202,KFC on Wellington St.,,43.540815,-80.245214,,,,0,1
+2A-203_Gordon St. at Water St.,203,Gordon St. at Water St.,,43.53833,-80.245214,,,,0,1
+2A-204_Gordon St. at Forbes Ave.,204,Gordon St. at Forbes Ave.,,43.537154,-80.239813,,,,0,1
+2A-205_Gordon St. at Dean Ave.,205,Gordon St. at Dean Ave.,,43.534009,-80.235469,,,,0,1
+2A-206_Gordon St. at College Ave.,206,Gordon St. at College Ave.,,43.531512,-80.231928,,,,0,1
+2A-207_University Centre,207,University Centre,,43.529922,-80.225029,,,,0,2
+2A-208_Stone Rd. W. at Edinburgh Rd. S.,208,Stone Rd. W. at Edinburgh Rd. S.,,43.520363,-80.233352,,,,1,0
+2A-209_Stone Rd. W. at Stone Rd Mall,209,Stone Rd. W. at Stone Rd Mall,,43.518846,-80.239222,,,,1,0
+2A-210_659 Wellington St. W.,210,659 Wellington St. W.,,43.522836,-80.267662,,,,1,0
+2A-211_Fife Rd. at Wellington St. W.,211,Fife Rd. at Wellington St. W.,,43.517730,-80.270448,,,,1,0
+2A-212_Fife Rd. at Gateway Dr.,212,Fife Rd. at Gateway Dr.,,43.515674,-80.273254,,,,1,0
+2A-213_Fife Rd. at Deerfield Pl.,213,Fife Rd. at Deerfield Pl.,,43.513766,-80.275861,,,,1,0
+2A-214_Elmira Rd. at West Acres Dr.,214,Elmira Rd. at West Acres Dr.,,43.516248,-80.278614,,,,1,0
+2A-215_254 Elmira Rd.,215,254 Elmira Rd.,,43.518995,-80.282143,,,,1,0
+2A-216_Elmira Rd. at Stephanie Dr.,216,Elmira Rd. at Stephanie Dr.,,43.521123,-80.287336,,,,1,0
+2A-217_Elmira Rd. at Zehrs,217,Elmira Rd. at Zehrs,,43.522818,-80.291611,,,,1,0
+2A-218_Elmira Rd. at West End Community Centre,218,Elmira Rd. at West End Community Centre,,43.523519,-80.293107,,,,1,0
+2A-219_Willow Rd. at Flaherty Dr.,219,Willow Rd. at Flaherty Dr.,,43.527343,-80.296881,,,,1,0
+2A-220_Imperial Rd. N. at Willow Rd.,220,Imperial Rd. N. at Willow Rd.,,43.528815,-80.292010,,,,1,0
+2A-221_Imperial Rd. N. at Dunhill Cres.,221,Imperial Rd. N. at Dunhill Cres.,,43.531740,-80.294166,,,,1,0
+2A-222_Imperial Rd. N. at Westwood Rd.,222,Imperial Rd. N. at Westwood Rd.,,43.535013,-80.294655,,,,1,0
+2A-223_Imperial Rd. N. at Speedvale Ave. W.,223,Imperial Rd. N. at Speedvale Ave. W.,,43.537331,-80.297226,,,,1,0
+2A-224_ARC Industries,224,ARC Industries,,43.539986,-80.294035,,,,1,0
+2A-225_Royal Rd. at Massey Rd. (Guelph Tool),225,Royal Rd. at Massey Rd. (Guelph Tool),,43.543038,-80.298273,,,,1,0
+2A-226_Massey Rd. at Imperial Rd.,226,Massey Rd. at Imperial Rd.,,43.540892,-80.301824,,,,1,0
+2A-227_Imperial Rd. N. at Woodlawn Rd. W.,227,Imperial Rd. N. at Woodlawn Rd. W.,,43.543610,-80.305658,,,,1,0
+2A-228_Woodlawn Rd. W. at Royal Rd.,228,Woodlawn Rd. W. at Royal Rd.,,43.545962,-80.303449,,,,1,0
+2A-229_Woodlawn Rd. W. at Regal Rd.,229,Woodlawn Rd. W. at Regal Rd.,,43.548807,-80.299496,,,,1,0
+2A-230_Woodlawn Rd. W. at Silvercreek Pkwy N,230,Woodlawn Rd. W. at Silvercreek Pkwy N,,43.551565,-80.295489,,,,1,0
+2A-231_Woodlawn Rd. W. at Dawson Rd.,231,Woodlawn Rd. W. at Dawson Rd.,,43.556114,-80.289684,,,,1,0
+2A-232_Woodlawn Rd. W. at Edinburgh Rd. N.,232,Woodlawn Rd. W. at Edinburgh Rd. N.,,43.558558,-80.286155,,,,1,0
+2A-233_Woodlawn Rd. W. at Nicklin Rd.,233,Woodlawn Rd. W. at Nicklin Rd.,,43.560592,-80.283493,,,,1,0
+2A-234_Smart Centre Guelph,234,Smart Centre Guelph,,43.564044,-80.281632,,,,1,0
+2A-235_Woolwich St. at Marilyn Dr.,235,Woolwich St. at Marilyn Dr.,,43.562030,-80.273414,,,,1,0
+2A-236_Woolwich St. at Evergreen,236,Woolwich St. at Evergreen,,43.559760,-80.270265,,,,1,0
+2A-237_Woolwich St. at Mac Ave.,237,Woolwich St. at Mac Ave.,,43.556809,-80.266247,,,,1,0
+2A-238_Woolwich St. at Tiffany St.,238,Woolwich St. at Tiffany St.,,43.552521,-80.260325,,,,1,0
+2A-239_Woolwich St. at London Rd.,239,Woolwich St. at London Rd.,,43.549780,-80.256575,,,,1,0
+2A-240_160 Woolwich,240,160 Woolwich,,43.548027,-80.25168,,,,1,0
+2A-241_Wyndham at IF Shoe Store,241,Wyndham at IF Shoe Store,,43.545578,-80.249017,,,,1,0
+2A-242_Guelph Central Station,242,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route2B-0250_Guelph Central Station,0250,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route2B-0251_Wyndham St. at Bank of Nova Scotia,0251,Wyndham St. at Bank of Nova Scotia,,43.546441,-80.249537,,,,0,1
+Route2B-0252_Woolwich St. at Cardigan St.,0252,Woolwich St. at Cardigan St.,,43.548158,-80.251279,,,,0,1
+Route2B-0253_Woolwich St. at Norwich St.,0253,Woolwich St. at Norwich St.,,43.548768,-80.254949,,,,0,1
+Route2B-0254_Woolwich St. at London Rd.,0254,Woolwich St. at London Rd.,,43.550097,-80.256667,,,,0,1
+Route2B-0255_Woolwich St. at Kerr St.,0255,Woolwich St. at Kerr St.,,43.551876,-80.259149,,,,0,1
+Route2B-0256_Woolwich St. at Powell St.,0256,Woolwich St. at Powell St.,,43.553105,-80.260808,,,,0,1
+Route2B-0257_Woolwich St. at Earl St.,0257,Woolwich St. at Earl St.,,43.555942,-80.264759,,,,0,1
+Route2B-0258_Woolwich St. at Speedvale Ave.,0258,Woolwich St. at Speedvale Ave.,,43.558046,-80.267588,,,,0,1
+Route2B-0259_Woolwich St. at Evergreen,0259,Woolwich St. at Evergreen,,43.560206,-80.270552,,,,0,1
+Route2B-0260_Woolwich St. at Marilyn Dr.,0260,Woolwich St. at Marilyn Dr.,,43.561971,-80.272989,,,,0,1
+Route2B-0261_Smart Centre Guelph,0261,Smart Centre Guelph,,43.564940,-80.279664,,,,0,1
+Route2B-0262_Woodlawn Rd. W. at Nicklin Rd.,0262,Woodlawn Rd. W. at Nicklin Rd.,,43.561001,-80.283145,,,,0,1
+Route2B-0263_Woodlawn Rd. W. at Edinburgh Rd. N.,0263,Woodlawn Rd. W. at Edinburgh Rd. N.,,43.558487,-80.286658,,,,0,1
+Route2B-0264_Woodlawn Rd. W. at Dawson Rd.,0264,Woodlawn Rd. W. at Dawson Rd.,,43.556826,-80.288946,,,,0,1
+Route2B-0265_Woodlawn Rd. W. at Arrow Rd.,0265,Woodlawn Rd. W. at Arrow Rd.,,43.554156,-80.292659,,,,0,1
+Route2B-0266_Woodlawn Rd. W. at Silvercreek Pkwy. N.,0266,Woodlawn Rd. W. at Silvercreek Pkwy. N.,,43.551719,-80.295956,,,,0,1
+Route2B-0267_Woodlawn Rd. W. at Regal Rd.,0267,Woodlawn Rd. W. at Regal Rd.,,43.548709,-80.300078,,,,0,1
+Route2B-0268_Woodlawn Rd. W. at Royal Rd.,0268,Woodlawn Rd. W. at Royal Rd.,,43.546404,-80.303239,,,,0,1
+Route2B-0269_Imperial Rd. N. at Woodlawn Rd. W.,0269,Imperial Rd. N. at Woodlawn Rd. W.,,43.543469,-80.305876,,,,0,1
+Route2B-0270_Massey Rd. at Imperial Rd. N.,0270,Massey Rd. at Imperial Rd. N.,,43.540880,-80.301154,,,,0,1
+Route2B-0271_Royal Rd. at Massey Rd.,0271,Royal Rd. at Massey Rd.,,43.542591,-80.298386,,,,0,1
+Route2B-0272_Royal at ARC Industries,0272,Royal at ARC Industries,,43.539916,-80.294588,,,,0,1
+Route2B-0273_Imperial Rd. N. at Speedvale Ave. W.,0273,Imperial Rd. N. at Speedvale Ave. W.,,43.536579,-80.296369,,,,0,1
+Route2B-0274_Imperial Rd. N. at Thornhill Dr.,0274,Imperial Rd. N. at Thornhill Dr.,,43.534097297637125,-80.294730,,,,0,1
+Route2B-0275_Imperial Rd. N. at Kipling Ave.,0275,Imperial Rd. N. at Kipling Ave.,,43.530773,-80.294209,,,,0,1
+Route2B-0276_Imperial Rd. N. at Willow Rd.,0276,Imperial Rd. N. at Willow Rd.,,43.528717,-80.292316,,,,0,1
+Route2B-0277_Willow Rd. at Flaherty Dr.,0277,Willow Rd. at Flaherty Dr.,,43.527623,-80.296562,,,,0,1
+Route2B-0278_Elmira Rd. at West End Community Centre,0278,Elmira Rd. at West End Community Centre,,43.523239,-80.293729,,,,0,1
+Route2B-0279_Elmira Rd.at Paisley,0279,Elmira Rd.at Paisley,,43.521827,-80.289727,,,,0,1
+Route2B-0280_Elmira Rd. at Fresh Meadow Way,0280,Elmira Rd. at Fresh Meadow Way,,43.518734,-80.281997,,,,0,1
+Route2B-0281_Elmira Rd. at Rochelle Dr.,0281,Elmira Rd. at Rochelle Dr.,,43.516498,-80.279127,,,,0,1
+Route2B-0282_Fife Rd. at Elmira Rd.,0282,Fife Rd. at Elmira Rd.,,43.513936,-80.275264,,,,0,1
+Route2B-0283_Fife Rd. at Gateway Dr.,0283,Fife Rd. at Gateway Dr.,,43.513878,-80.275337,,,,0,1
+Route2B-0284_26 Fife Rd. at Coop,0284,26 Fife Rd. at Coop,,43.517774,-80.270061,,,,0,1
+Route2B-0285_Wellington St. W. at Wastewater Treatment Plant,0285,Wellington St. W. at Wastewater Treatment Plant,,43.522874,-80.267234,,,,0,1
+Route2B-0286_Stone Rd. W. at Scottsdale Dr.,0286,Stone Rd. W. at Scottsdale Dr.,,43.516108,-80.238548,,,,0,1
+Route2B-0287_372 Stone Rd. W.,0287,372 Stone Rd. W.,,43.517578,-80.236634,,,,0,1
+Route2B-0288_292 Stone Rd. W.,0288,292 Stone Rd. W.,,43.519475,-80.234214,,,,0,1
+Route2B-0289_Stone Rd. opposite Zellers,0289,Stone Rd. opposite Zellers,,43.521656,-80.2312633395195,,,,0,1
+Route2B-0290_95 Stone Rd. W.,0290,95 Stone Rd. W.,,43.524669,-80.227194,,,,0,1
+Route2B-0291_University Centre,0291,University Centre,,43.530139,-80.225671,,,,0,2
+Route2B-0292_Gordon St. at Vet College,0292,Gordon St. at Vet College,,43.531442,-80.231459,,,,1,0
+Route2B-0293_Gordon St. at Macdonald Stewart Art Centre,0293,Gordon St. at Macdonald Stewart Art Centre,,43.532842,-80.233321,,,,1,0
+Route2B-0294_Gordon St. at Dormie Lane,0294,Gordon St. at Dormie Lane,,43.536904,-80.239148,,,,1,0
+Route2B-0295_Gordon St. at Water St.,0295,Gordon St. at Water St.,,43.538124,-80.240880,,,,1,0
+Route2B-0296_Wellington St. at Wellington Plaza,0296,Wellington St. at Wellington Plaza,,43.541440,-80.244076,,,,1,0
+Route2B-0297_Wyndham St. at Fountain St.,0297,Wyndham St. at Fountain St.,,43.543369,-80.245192,,,,1,0
+Route2B-0298_Guelph Central Station,0298,Guelph Central Station,,43.545892,-80.249020,,,,2,0
+Route3B-0350_Guelph Central Station,0350,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route3B-0351_Gordon St. at Nottingham St.,0351,Gordon St. at Nottingham St.,,43.541749,-80.247968,,,,0,1
+Route3B-0352_Gordon St. at Wellington St.,0352,Gordon St. at Wellington St.,,43.540815,-80.245214,,,,0,1
+Route3B-0353_Gordon St. at Water St.,0353,Gordon St. at Water St.,,43.53833,-80.245214,,,,0,1
+Route3B-0354_Gordon St. at Forbes Ave.,0354,Gordon St. at Forbes Ave.,,43.537154,-80.239813,,,,0,1
+Route3B-0355_Gordon St. at Dean Ave.,0355,Gordon St. at Dean Ave.,,43.534009,-80.235469,,,,0,1
+Route3B-0356_Gordon St. at College Ave.,0356,Gordon St. at College Ave.,,43.531512,-80.231928,,,,0,1
+Route3B-0357_University Centre,0357,University Centre,,43.529922,-80.225029,,,,0,2
+Route3B-0358_Stone Rd. E. at Arbour Medical Centre,0358,Stone Rd. E. at Arbour Medical Centre,,43.533101,-80.215941,,,,1,0
+Route3B-0359_Victoria Rd. S. at Stone Rd. E.,0359,Victoria Rd. S. at Stone Rd. E.,,43.538966,-80.208101,,,,1,0
+Route3B-0360_535 York Rd. at Tim Hortons,0360,535 York Rd. at Tim Hortons,,43.552095,-80.223504,,,,1,0
+Route3B-0361_York Rd. at Beaumont Cres.,0361,York Rd. at Beaumont Cres.,,43.554649,-80.22002,,,,1,0
+Route3B-0362_728 York Rd.,0362,728 York Rd.,,43.556909,-80.216868,,,,1,0
+Route3B-0363_785 York Rd.,0363,785 York Rd.,,43.558812,-80.214229,,,,1,0
+Route3B-0364_York Rd. At Watson Pkwy. N.,0364,York Rd. At Watson Pkwy. N.,,43.561500,-80.210523,,,,1,0
+Route3B-0365_Watson Pkwy. N. opposite Library,0365,Watson Pkwy. N. opposite Library,,43.566523,-80.211495,,,,1,0
+Route3B-0366_Watson Pkwy. N. at Fleming Rd.,0366,Watson Pkwy. N. at Fleming Rd.,,43.570403,-80.213451,,,,1,0
+Route3B-0367_Watson Pkwy. N. at Grange Rd.,0367,Watson Pkwy. N. at Grange Rd.,,43.573888,-80.218251,,,,1,0
+Route3B-0368_Watson Pkwy. N. at  Eastview Rd.,0368,Watson Pkwy. N. at  Eastview Rd.,,43.577843,-80.223768,,,,1,0
+Route3B-0369_Eastview Rd. at Summit Ridge Dr.,0369,Eastview Rd. at Summit Ridge Dr.,,43.572774,-80.231459,,,,1,0
+Route3B-0370_Eastview Rd. at Starwood Dr.,0370,Eastview Rd. at Starwood Dr.,,43.570083,-80.235092,,,,1,0
+Route3B-0371_Eastview Rd. at Mountford Dr.,0371,Eastview Rd. at Mountford Dr.,,43.567393,-80.238771,,,,1,0
+Route3B-0372_Eastview Rd. at Victoria Rd.,0372,Eastview Rd. at Victoria Rd.,,43.565032,-80.241989,,,,1,0
+Route3B-0373_211 Victoria Rd. N.,0373,211 Victoria Rd. N.,,43.567067,-80.244971,,,,1,0
+Route3B-0374_Victoria Rd. N. at Eramosa Rd.,0374,Victoria Rd. N. at Eramosa Rd.,,43.56962,-80.248568,,,,1,0
+Route3B-0375_Victoria Rd. N. at Speedvale Ave. E.,0375,Victoria Rd. N. at Speedvale Ave. E.,,43.57197,-80.251773,,,,1,0
+Route3B-0376_Victoria Rd. N. at Brant Ave.,0376,Victoria Rd. N. at Brant Ave.,,43.575281,-80.256345,,,,1,0
+Route3B-0377_Victoria Rd. N. at Woodlawn Rd. E.,0377,Victoria Rd. N. at Woodlawn Rd. E.,,43.578063,-80.260204,,,,1,0
+Route3B-0378_Victoria Rd. N. opposite Trillium Waldorf,0378,Victoria Rd. N. opposite Trillium Waldorf,,43.580826,-80.264077,,,,1,0
+Route3B-0379_Inverness Dr. at Wilton Rd.,0379,Inverness Dr. at Wilton Rd.,,43.579009,-80.266687,,,,1,0
+Route3B-0380_Inverness Dr. at Woodlawn Rd.,0380,Inverness Dr. at Woodlawn Rd.,,43.576353,-80.262822,,,,1,0
+Route3B-0381_Woodlawn Rd. E. at Golfview Dr.,0381,Woodlawn Rd. E. at Golfview Dr.,,43.574227,-80.264853,,,,1,0
+Route3B-0382_Woodlawn Rd. E. at Country Club Dr.,0382,Woodlawn Rd. E. at Country Club Dr.,,43.571818,-80.268227,,,,1,0
+Route3B-0383_Woodlawn Rd. E. at Riverside Glen,0383,Woodlawn Rd. E. at Riverside Glen,,43.568609,-80.272695,,,,1,0
+Route3B-0384_Woodlawn Rd. E. at Canadian Tire,0384,Woodlawn Rd. E. at Canadian Tire,,43.566001,-80.276314,,,,1,0
+Route3B-0385_Smart Centre Guelph,0385,Smart Centre Guelph,,43.56494,-80.279664,,,,1,0
+Route3B-0386_Nicklin Rd. at Burns Dr.,0386,Nicklin Rd. at Burns Dr.,,43.558355,-80.280122,,,,1,0
+Route3B-0387_Bailey Ave. at Kathleen St.,0387,Bailey Ave. at Kathleen St.,,43.557298,-80.276217,,,,1,0
+Route3B-0388_Kathleen St. at Speedvale Ave. W.,0388,Kathleen St. at Speedvale Ave. W.,,43.555549,-80.27256,,,,1,0
+Route3B-0389_Westmount Rd. at Kimberley Dr.,0389,Westmount Rd. at Kimberley Dr.,,43.553154,-80.274126,,,,1,0
+Route3B-0390_St. Joseph's Health Centre,0390,St. Joseph's Health Centre,,43.549794,-80.269589,,,,1,0
+Route3B-0391_Westmount Rd. at Division St.,0391,Westmount Rd. at Division St.,,43.550158,-80.270008,,,,1,0
+Route3B-0392_Westmount Rd. at Lourdes,0392,Westmount Rd. at Lourdes,,43.548554,-80.267786,,,,1,0
+Route3B-0393_Westmount Rd. at London Rd. W.,0393,Westmount Rd. at London Rd. W.,,43.545476,-80.263459,,,,1,0
+Route3B-0394_Yorkshire St. N. at Home St.,0394,Yorkshire St. N. at Home St.,,43.545781,-80.261342,,,,1,0
+Route3B-0395_Suffolk St. at Glasgow St.,0395,Suffolk St. at Glasgow St.,,43.545368,-80.258562,,,,1,0
+Route3B-0396_Suffolk St. at Dublin St. Church,0396,Suffolk St. at Dublin St. Church,,43.546335,-80.256689,,,,1,0
+Route3B-0397_160 Woolwich.,0397,160 Woolwich.,,43.548027,-80.25168,,,,1,0
+Route3B-0398_Wyndham at IF Shoe Store,0398,Wyndham at IF Shoe Store,,43.545578,-80.249017,,,,1,0
+Route3B-0399_Guelph Central Station,0399,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route4-400_Guelph Central Station,400,Guelph Central Station,,43.54582712,-80.24580414,,,,2,0
+Route4-401_Neeve St. at Ontario St.,401,Neeve St. at Ontario St.,,43.54413676,-80.24097264,,,,1,0
+Route4-402_Ontario St at Manitoba St.,402,Ontario St at Manitoba St.,,43.54470417,-80.23730491,,,,1,0
+Route4-403_168 Ontario St.,403,168 Ontario St.,,43.54520196,-80.23469665,,,,1,0
+Route4-404_Ontario St. at York Rd.,404,Ontario St. at York Rd.,,43.54552549,-80.23274047,,,,1,0
+Route4-405_York Rd. at Morris St.,405,York Rd. at Morris St.,,43.54671213,-80.23080247,,,,1,0
+Route4-406_York Rd. at Brockville Ave.,406,York Rd. at Brockville Ave.,,43.54913612,-80.22756837,,,,1,0
+Route4-407_York Rd. at Audrey Ave.,407,York Rd. at Audrey Ave.,,43.55078627,-80.22533313,,,,1,0
+Route4-408_535 York Rd. at Tim Hortons,408,535 York Rd. at Tim Hortons,,43.55223214,-80.22329365,,,,1,0
+Route4-409_York Rd. at Beaumont Cres.,409,York Rd. at Beaumont Cres.,,43.55458284,-80.22014686,,,,1,0
+Route4-410_728 York Rd.,410,728 York Rd.,,43.55693523,-80.21688324,,,,1,0
+Route4-411_895 York Rd.,411,895 York Rd.,,43.55872643,-80.21438384,,,,1,0
+Route4-412_York Rd. at Watson Pkwy. N.,412,York Rd. at Watson Pkwy. N.,,43.56153565,-80.21054688,,,,1,0
+Route4-413_York Rd. at Graniteworx,413,York Rd. at Graniteworx,,43.56350386,-80.20788965,,,,1,0
+Route4-414_Watson Rd. S. at York Rd.,414,Watson Rd. S. at York Rd.,,43.56449176,-80.20546404,,,,1,0
+Route4-415_Watson Rd. S. at Airpark Pl.,415,Watson Rd. S. at Airpark Pl.,,43.56243048,-80.20258634,,,,1,0
+Route4-416_Watson Rd. S. at Guelph Transit Centre,416,Watson Rd. S. at Guelph Transit Centre,,43.5605435,-80.19994552,,,,1,0
+Route4-417_Watson Pkwy. S. at Dunlop Dr.,417,Watson Pkwy. S. at Dunlop Dr.,,43.55799165,-80.19896715,,,,1,0
+Route4-418_Watson Pkwy. S. at Cargill,418,Watson Pkwy. S. at Cargill,,43.55905022,-80.20286232,,,,1,0
+Route4-419_Watson Pkwy. S. at Taggert St.,419,Watson Pkwy. S. at Taggert St.,,43.56028046,-80.20619722,,,,1,0
+Route4-420_York Rd. at Watson Pkwy. N.,420,York Rd. at Watson Pkwy. N.,,43.56151064,-80.21082655,,,,1,0
+Route4-421_York Rd. at Yorkhaven Pl..,421,York Rd. at Yorkhaven Pl..,,43.55847725,-80.21503684,,,,1,0
+Route4-422_York Rd. at Royal City Jaycees Park,422,York Rd. at Royal City Jaycees Park,,43.55703595,-80.21700185,,,,1,0
+Route4-423_York Rd. at Beaumont Cres.,423,York Rd. at Beaumont Cres.,,43.55493605,-80.21990711,,,,1,0
+Route4-424_York Rd. at Victoria Rd.,424,York Rd. at Victoria Rd.,,43.55154516,-80.22455892,,,,1,0
+Route4-425_York Rd. at Brockville Ave.,425,York Rd. at Brockville Ave.,,43.54905218,-80.22787225,,,,1,0
+Route4-426_York Rd. at Harris St.,426,York Rd. at Harris St.,,43.54753114,-80.22995403,,,,1,0
+Route4-427_Ontario St. at Huron St.,427,Ontario St. at Huron St.,,43.5456181,-80.23307566,,,,1,0
+Route4-428_70 Ontario St.,428,70 Ontario St.,,43.54485745,-80.23718307,,,,1,0
+Route4-429_Ontario St. at Neeve St.,429,Ontario St. at Neeve St.,,43.54426392,-80.2402114,,,,1,0
+Route4-430_Guelph Central Station,430,Guelph Central Station,,43.56127596,-80.20764978,,,,2,0
+Route10-1000_Guelph Central Station,1000,Guelph Central Station,,43.545395,-80.246324,,,,2,0
+Route10-1001_Quebec St. at B.M.O.,1001,Quebec St. at B.M.O.,,43.545816,-80.249985,,,,1,0
+Route10-1002_Paisley St. at Library,1002,Paisley St. at Library,,43.545416,-80.252869,,,,1,0
+Route10-1003_Paisley St. at Glasgow St.,1003,Paisley St. at Glasgow St.,,43.543483,-80.256727,,,,1,0
+Route10-1004_Paisley St. at G.C.V.I.,1004,Paisley St. at G.C.V.I.,,43.542421,-80.258820,,,,1,0
+Route10-1005_Paisley St. at Harrison Ave.,1005,Paisley St. at Harrison Ave.,,43.541522,-80.260557,,,,1,0
+Route10-1006_Paisley St. at Edinburgh Rd. N.,1006,Paisley St. at Edinburgh Rd. N.,,43.540699,-80.263171,,,,1,0
+Route10-1007_Paisley Rd. at Alma St.,1007,Paisley Rd. at Alma St.,,43.538862,-80.265657,,,,1,0
+Route10-1008_Paisley Rd. at Western Ave.,1008,Paisley Rd. at Western Ave.,,43.536467,-80.268935,,,,1,0
+Route10-1009_Paisley Rd. at Heath Rd.,1009,Paisley Rd. at Heath Rd.,,43.534616,-80.271486,,,,1,0
+Route10-1010_Westwood Rd. at Silvercreek Pkwy. N.,1010,Westwood Rd. at Silvercreek Pkwy. N.,,43.535150,-80.275370,,,,1,0
+Route10-1011_85 Westwood Rd.,1011,85 Westwood Rd.,,43.532712,-80.278921,,,,1,0
+Route10-1012_225 Westwood Rd.,1012,225 Westwood Rd.,,43.532762,-80.285243,,,,1,0
+Route10-1013_Willow Rd. at Westwood Rd.,1013,Willow Rd. at Westwood Rd.,,43.533285,-80.288209,,,,1,0
+Route10-1014_577 Willow Rd. at Church,1014,577 Willow Rd. at Church,,43.531384,-80.290685,,,,1,0
+Route10-1015_Imperial Rd. S. at Ferman Dr.,1015,Imperial Rd. S. at Ferman Dr.,,43.527646,-80.290672,,,,1,0
+Route10-1016_West End Community Centre,1016,West End Community Centre,,43.522344,-80.291079,,,,1,0
+Route10-1017_926 Paisley Rd.,1017,926 Paisley Rd.,,43.526110,-80.285423,,,,1,0
+Route10-1018_Paisley Rd. at Candlewood Dr.,1018,Paisley Rd. at Candlewood Dr.,,43.529005,-80.279237,,,,1,0
+Route10-1019_Paisley Rd. at West Hill Estates,1019,Paisley Rd. at West Hill Estates,,43.530899,-80.276021,,,,1,0
+Route10-1020_Paisley Rd. at Heath Rd.,1020,Paisley Rd. at Heath Rd.,,43.534478,-80.271486,,,,1,0
+Route10-1021_Paisley Rd. at Goldie Ave.,1021,Paisley Rd. at Goldie Ave.,,43.536911,-80.268142,,,,1,0
+Route10-1022_Paisley Rd. at Alma St.,1022,Paisley Rd. at Alma St.,,43.538742,-80.265622,,,,1,0
+Route10-1023_Paisley Rd. at Edinburgh Rd. N.,1023,Paisley Rd. at Edinburgh Rd. N.,,43.540451,-80.263289,,,,1,0
+Route10-1024_Paisley St. at Yorkshire St. N.,1024,Paisley St. at Yorkshire St. N.,,43.542516,-80.258347,,,,1,0
+Route10-1025_Paisley St. at Glasgow St.,1025,Paisley St. at Glasgow St.,,43.543289,-80.256822,,,,1,0
+Route10-1026_Paisley St. at Norfolk St.,1026,Paisley St. at Norfolk St.,,43.545130,-80.253188,,,,1,0
+Route10-1027_St George's Square IF Shoe store,1027,St George's Square IF Shoe store,,43.545578,-80.249017,,,,1,0
+Route10-1028_Guelph Central Station,1028,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route11-1100_Guelph Central Station,1100,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route11-1101_Norfolk St. at Albion,1101,Norfolk St. at Albion,,43.544122,-80.250720,,,,1,0
+Route11-1102_Suffolk St. W. at Norfolk St.,1102,Suffolk St. W. at Norfolk St.,,43.547351,-80.254939,,,,1,0
+Route11-1103_Suffolk St. W. at Dublin St.,1103,Suffolk St. W. at Dublin St.,,43.546415,-80.256760,,,,1,0
+Route11-1104_Suffolk St. W. at Glasgow St.,1104,Suffolk St. W. at Glasgow St.,,43.545548,-80.258462,,,,1,0
+Route11-1105_Suffolk St. W. at Yorkshire St. N.,1105,Suffolk St. W. at Yorkshire St. N.,,43.544199,-80.260931,,,,1,0
+Route11-1106_Suffolk St. W. at Edinburgh Rd. N.,1106,Suffolk St. W. at Edinburgh Rd. N.,,43.542564,-80.264131,,,,1,0
+Route11-1107_Edinburgh Rd. N. at Mercer St.,1107,Edinburgh Rd. N. at Mercer St.,,43.542856,-80.265335,,,,1,0
+Route11-1108_Willow Rd. at Dawson Rd.,1108,Willow Rd. at Dawson Rd.,,43.545391,-80.271529,,,,1,0
+Route11-1109_Dawson Rd. at Shelldale Cres.,1109,Dawson Rd. at Shelldale Cres.,,43.545826,-80.274188,,,,1,0
+Route11-1110_Dawson Rd. at Dawson Road Medical Clinic,1110,Dawson Rd. at Dawson Road Medical Clinic,,43.549314,-80.279025,,,,1,0
+Route11-1111_229 Speedvale Ave. W.,1111,229 Speedvale Ave. W.,,43.547790,-80.282995,,,,1,0
+Route11-1112_Speedvale Ave. W. at Silvercreek Pkwy. N.,1112,Speedvale Ave. W. at Silvercreek Pkwy. N.,,43.545027,-80.286831,,,,1,0
+Route11-1113_361 Speedvale Ave. W.,1113,361 Speedvale Ave. W.,,43.542554,-80.290189,,,,1,0
+Route11-1131_Marksham Rd. south of Speedvale Ave. W.,1131,Marksham Rd. south of Speedvale Ave. W.,,43.540700,-80.292026,,,,1,0
+Route11-1114_177 Marksam Rd.,1114,177 Marksam Rd.,,43.540369,-80.291578,,,,1,0
+Route11-1115_145 Marksam Rd.,1115,145 Marksam Rd.,,43.537827,-80.288856,,,,1,0
+Route11-1116_76 Marksam Rd.,1116,76 Marksam Rd.,,43.536977,-80.283222,,,,1,0
+Route11-1117_Willow Rd. at Silvercreek Pkwy.,1117,Willow Rd. at Silvercreek Pkwy.,,43.540246,-80.278258,,,,1,0
+Route11-1118_158 Willow Rd.,1118,158 Willow Rd.,,43.542696,-80.274948,,,,1,0
+Route11-1119_66 Willow Rd.,1119,66 Willow Rd.,,43.543569,-80.273708,,,,1,0
+Route11-1120_26 Willow Rd.,1120,26 Willow Rd.,,43.545212,-80.271456,,,,1,0
+Route11-1121_200 Edinburgh Rd. N.,1121,200 Edinburgh Rd. N.,,43.542215,-80.264745,,,,1,0
+Route11-1122_Paisley St. at Yorkshire St. N.,1122,Paisley St. at Yorkshire St. N.,,43.542516,-80.258347,,,,1,0
+Route11-1123_Paisley St. at Glasgow St.,1123,Paisley St. at Glasgow St.,,43.543289,-80.256822,,,,1,0
+Route11-1124_Paisley St. at Norfolk St.,1124,Paisley St. at Norfolk St.,,43.54513,-80.253188,,,,1,0
+Route11-1130_St George's Square IF Shoe store,1130,St George's Square IF Shoe store,,43.545578,-80.249017,,,,1,0
+Route11-1125_Guelph Central Station,1125,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route14-1400_Guelph Central Station,1400,Guelph Central Station,,43.54518,-80.24605,,,,2,0
+Route14-1401_Elizabeth St. at Duke St.,1401,Elizabeth St. at Duke St.,,43.5479,-80.241684,,,,1,0
+Route14-1402_65 Elizabeth St.,1402,65 Elizabeth St.,,43.549022,-80.240144,,,,1,0
+Route14-1403_Elizabeth St. at Morris St.,1403,Elizabeth St. at Morris St.,,43.550865,-80.237719,,,,1,0
+Route14-1404_Elizabeth St. at Stevenson St.,1404,Elizabeth St. at Stevenson St.,,43.552852,-80.235072,,,,1,0
+Route14-1405_Elizabeth St. at Victoria Rd. N.,1405,Elizabeth St. at Victoria Rd. N.,,43.555192,-80.229946,,,,1,0
+Route14-1406_Grange Rd. at Victoria Rd. N.,1406,Grange Rd. at Victoria Rd. N.,,43.55779,-80.231868,,,,1,0
+Route14-1407_Grange Rd. at Schroder Cres.,1407,Grange Rd. at Schroder Cres.,,43.559965,-80.22695,,,,1,0
+Route14-1408_Grange Rd. at Breesgarden Lane,1408,Grange Rd. at Breesgarden Lane,,43.564124,-80.222922,,,,1,0
+Route14-1409_Grange Rd. at Ralston Dr.,1409,Grange Rd. at Ralston Dr.,,43.567439,-80.222527,,,,1,0
+Route14-1410_Grange Rd. at Ken Danby School,1410,Grange Rd. at Ken Danby School,,43.570595,-80.221717,,,,1,0
+Route14-1411_Watson Pkwy. N. South of Grange Rd. N.,1411,Watson Pkwy. N. South of Grange Rd.. N.,,43.573407,-80.217850,,,,1,0
+Route14-1412_Watson Pkwy. N. at Fleming Rd.,1412,Watson Pkwy. N. at Fleming Rd.,,43.570527,-80.21377,,,,1,0
+Route14-1413_Watson Pkwy. N. at Library,1413,Watson Pkwy. N. at Library,,43.566571,-80.211793,,,,1,0
+Route14-1414_Starwood Dr. at Fleming Rd.,1414,Starwood Dr. at Fleming Rd.,,43.566464,-80.217997,,,,1,0
+Route14-1415_Starwood Dr. at Ralston Dr.,1415,Starwood Dr. at Ralston Dr.,,43.566748,-80.221188,,,,1,0
+Route14-1416_Grange Rd. at Silurian Dr.,1416,Grange Rd. at Silurian Dr.,,43.565688,-80.22304,,,,1,0
+Route14-1417_Grange Rd. at Auden Rd.,1417,Grange Rd. at Auden Rd.,,43.560584,-80.22639,,,,1,0
+Route14-1418_Grange Rd. at St. James Park,1418,Grange Rd. at St. James Park,,43.559028,-80.228522,,,,1,0
+Route14-1419_Victoria Rd. N. at Grange Rd.,1419,Victoria Rd. N. at Grange Rd.,,43.556903,-80.231,,,,1,0
+Route14-1420_Elizabeth St. at Victoria Rd. N.,1420,Elizabeth St. at Victoria Rd. N.,,43.555289,-80.230253,,,,1,0
+Route14-1421_Elizabeth St. at Stevenson St.,1421,Elizabeth St. at Stevenson St.,,43.553328,-80.234705,,,,1,0
+Route14-1422_Elizabeth St. at Morris St.,1422,Elizabeth St. at Morris St.,,43.551418,-80.237208,,,,1,0
+Route14-1423_Elizabeth St. at Huron St.,1423,Elizabeth St. at Huron St.,,43.549593,-80.239644,,,,1,0
+Route14-1424_Elizabeth St. at Red Chevron Club,1424,Elizabeth St. at Red Chevron Club,,43.548577,-80.240986,,,,1,0
+Route14-1425_Guelph Central Station,1425,Guelph Central Station,,43.54518,-80.24605,,,,2,0
+Route20-2000_Guelph Central Station,2000,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route20-2001_Woolwich St. at Norwich St. E.,2001,Woolwich St. at Norwich St. E.,,43.548768,-80.254949,,,,1,0
+Route20-2002_Willow Rd. at Dawson Rd.,2002,Willow Rd. at Dawson Rd.,,43.545391,-80.271529,,,,1,0
+Route20-2003_Willow Rd. at Willow Road P.S,2003,Willow Rd. at Willow Road P.S,,43.542723,-80.275201,,,,1,0
+Route20-2004_Willow West Mall,2004,Willow West Mall,,43.539628,-80.279519,,,,1,0
+Route20-2005_Willow Rd. at Westwood Public School,2005,Willow Rd. at Westwood Public School,,43.535078,-80.285726,,,,1,0
+Route20-2006_577  Willow Rd. at Church,2006,577  Willow Rd. at Church,,43.533285,-80.288209,,,,1,0
+Route20-2007_Willow Rd. at Flaherty Dr.,2007,Willow Rd. at Flaherty Dr.,,43.52762272,-80.29656172,,,,1,0
+Route20-2008_Elmira Rd N. at Flaherty Dr.,2008,Elmira Rd N. at Flaherty Dr.,,43.530528,-80.303578,,,,1,0
+Route20-2009_Elmira Rd. N. at Independence Pl.,2009,Elmira Rd. N. at Independence Pl.,,43.53318,-80.307097,,,,1,0
+Route20-2010_Elmira Rd. at Massey Rd.,2010,Elmira Rd. at Massey Rd.,,43.54074,-80.301904,,,,1,0
+Route20-2011_Elmira Rd. at Power Corp,2011,Elmira Rd. at Power Corp,,43.535001,-80.3092,,,,1,0
+Route20-2012_925 Woodlawn Rd.,2012,925 Woodlawn Rd.,,43.535607,-80.318127,,,,1,0
+Route20-2013_Across from 498 Governors Rd.,2013,Across from 498 Governors Rd.,,43.533243,-80.321935,,,,1,0
+Route20-2014_110 Malcolm Rd.,2014,110 Malcolm Rd.,,43.536058,-80.322418,,,,1,0
+Route20-2015_50 Malcolm Rd.,2015,50 Malcolm Rd.,,43.537101,-80.320916,,,,1,0
+Route20-2016_14 Malcolm Rd.,2016,14 Malcolm Rd.,,43.538407,-80.319285,,,,1,0
+Route20-2017_2 Malcolm Rd.,2017,2 Malcolm Rd.,,43.539932,-80.316989,,,,1,0
+Route20-2018_450 Michener Rd.,2018,450 Michener Rd.,,43.533818,-80.31935,,,,1,0
+Route20-2019_Michener Rd. at Massey Rd.,2019,Michener Rd. at Massey Rd.,,43.531143,-80.315595,,,,1,0
+Route20-2020_530 Massey Rd.,2020,530 Massey Rd.,,43.532232,-80.31347,,,,1,0
+Route20-2021_446 Massey Rd.,2021,446 Massey Rd.,,43.534705,-80.30978,,,,1,0
+Route20-2022_400 Massey Rd.,2022,400 Massey Rd.,,43.536167,-80.307763,,,,1,0
+Route20-2023_265 Massey Rd.,2023,265 Massey Rd.,,43.539372,-80.30302,,,,1,0
+Route20-2024_Across from 251 Massey Rd.,2024,Across from 251 Massey Rd.,,43.540367,-80.301948,,,,1,0
+Route20-2025_Imperial Rd. N. of Woodlawn Rd. W,2025,Imperial Rd. N. of Woodlawn Rd. W,,43.543773,-80.305638,,,,1,0
+Route20-2026_190 Curtis Dr.,2026,190 Curtis Dr.,,43.549077,-80.306239,,,,1,0
+Route20-2027_Curtis Dr. at Silvercreek Pkwy.,2027,Curtis Dr. at Silvercreek Pkwy.,,43.553665,-80.299931,,,,1,0
+Route20-2028_Silvercreek Pkwy. past Woodlawn Rd.,2028,Silvercreek Pkwy. past Woodlawn Rd.,,43.550834,-80.295854,,,,1,0
+Route20-2029_Silvercreek Pkwy N. at C pbell Rd.,2029,Silvercreek Pkwy N. at Campbell Rd.,,43.548019,-80.29197,,,,1,0
+Route20-2030_254 Silvercreek Pkwy.,2030,254 Silvercreek Pkwy.,,43.544924,-80.287571,,,,1,0
+Route20-2031_214 Silvercreek Pkwy.,2031,214 Silvercreek Pkwy.,,43.542607,-80.28452,,,,1,0
+Route20-2032_130 Silvercreek Pwky.,2032,130 Silvercreek Pwky.,,43.540196,-80.281091,,,,1,0
+Route20-2033_Willow Rd. at Silvercreek Pkwy.,2033,Willow Rd. at Silvercreek Pkwy.,,43.543695,-80.273666,,,,1,0
+Route20-2034_158 Willow Rd.,2034,158 Willow Rd.,,43.54228,-80.275168,,,,1,0
+Route20-2035_66 Willow Rd.,2035,66 Willow Rd.,,43.54497,-80.271821,,,,1,0
+Route20-2036_26 Willow Rd.,2036,26 Willow Rd.,,43.54497,-80.271821,,,,1,0
+Route20-2037_200 Edinburgh Rd. N.,2037,200 Edinburgh Rd. N.,,43.542186,-80.264568,,,,1,0
+Route20-2038_Paisley St. at Yorkshire St. N.,2038,Paisley St. at Yorkshire St. N.,,43.542622,-80.258259,,,,1,0
+Route20-2039_Paisley St. at Glasgow St.,2039,Paisley St. at Glasgow St.,,43.543326,-80.256844,,,,1,0
+Route20-2040_Paisley St. at Norfolk St.,2040,Paisley St. at Norfolk St.,,43.545390,-80.252122,,,,1,0
+Route20-2041_St. George's Square IF Shoe Store.,2041,St. George's Square IF Shoe Store.,,43.545578,-80.249017,,,,1,0
+Route20-2042_Guelph Central Station,2042,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route21-2100_Guelph Central Station,2100,Guelph Central Station,,43.545180,-80.24605,,,,2,0
+Route21-_Wellington St. W at K.F.C,,Wellington St. W at K.F.C,,43.542276,-80.243974,,,,0,1
+Route21-2101_Gordon St. at College Ave. W.,2101,Gordon St. at College Ave. W.,,43.531512,-80.231928,,,,0,1
+Route21-2102_Gordon St. at Stone Rd. W.,2102,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route21-2103_Gordon St. at Harvard Rd.,2103,Gordon St. at Harvard Rd.,,43.525153,-80.221052,,,,0,1
+Route21-2104_Gordon St. at Kortright Rd. W.,2104,Gordon St. at Kortright Rd. W,,43.522309,-80.213484,,,,0,1
+Route21-2105_Gordon St. at Edinburgh Rd. S.,2105,Gordon St. at Edinburgh Rd. S.,,43.516595,-80.203694,,,,0,1
+Route21-2106_Gordon St. at Arkell Rd.,2106,Gordon St. at Arkell Rd.,,43.513888,-80.19989,,,,0,1
+Route21-2107_Gordon St. at Clairfields Dr.,2107,Gordon St. at Clairfields Dr.,,43.505161,-80.194351,,,,0,1
+Route21-2108_Bishop Macdonell High School,2108,Bishop Macdonell High School,,43.495554,-80.195861,,,,0,1
+Route21-2109_Laird Rd. at Clair Rd. W.,2109,Laird Rd. at Clair Rd. W.,,43.492751,-80.200238,,,,0,1
+Route21-2110_Southgate Dr. at Laird Rd.,2110,Southgate Dr. at Laird Rd.,,43.49437,-80.207405,,,,0,1
+Route21-2111_125 Southgate Dr.,2111,125 Southgate Dr.,,43.497763,-80.211439,,,,0,1
+Route21-2112_180 Southgate Dr.,2112,180 Southgate Dr.,,43.500192,-80.213584,,,,0,1
+Route21-2113_310 Southgate Dr.,2113,310 Southgate Dr.,,43.502246,-80.217576,,,,0,1
+Route21-2114_450 Southgate Dr.,2114,450 Southgate Dr.,,43.500098,-80.219979,,,,0,1
+Route21-2115_525 Southgate Dr.,2115,525 Southgate Dr.,,43.497763,-80.21749,,,,0,1
+Route21-2116_595 Southgate Dr.,2116,595 Southgate Dr.,,43.494526,-80.213713,,,,0,1
+Route21-2117_679 Southgate Dr.,2117,679 Southgate Dr.,,43.49297,-80.209943,,,,0,1
+Route21-2118_Southgate Dr. at Corporate Rd.,2118,Southgate Dr. at Corporate Rd.,,43.492192,-80.208765,,,,0,1
+Route21-2119_Southgate Dr. at Admiral Pl.,2119,Southgate Dr. at Admiral Pl.,,43.491034,-80.207102,,,,0,1
+Route21-2120_829 Southgate Dr.,2120,829 Southgate Dr.,,43.489566,-80.203991,,,,0,1
+Route21-2121_300 Clair (Water Tower),2121,300 Clair (Water Tower),,43.492158,-80.200168,,,,0,1
+Route21-2122_Bishop Macdonell High School,2122,Bishop Macdonell High School,,43.495285,-80.195641,,,,0,1
+Route21-2123_Gosling Gdns. at Food Basics,2123,Gosling Gdns. at Food Basics,,43.499368,-80.191593,,,,0,1
+Route21-2124_Gosling Gdns. Park,2124,Gosling Gdns. Park,,43.501366,-80.192967,,,,0,1
+Route21-2125_Gosling Gdns. at Clairfields Dr. W.,2125,Gosling Gdns. at Clairfields Dr. W.,,43.503521,-80.192967,,,,0,1
+Route21-2126_Gordon St. north of Clairfields Dr.,2126,Gordon St. north of Clairfields Dr.,,43.505801,-80.194376,,,,0,1
+Route21-2127_Gordon St. at Lowes Rd.,2127,Gordon St. at Lowes Rd.,,43.508565,-80.195517,,,,0,1
+Route21-2128_Gordon St. at Continuing Educ.,2128,Gordon St. at Continuing Educ.,,43.511755,-80.196955,,,,0,1
+Route21-2129_Gordon St. at Arkell Rd.,2129,Gordon St. at Arkell Rd.,,43.513988,-80.199607,,,,0,1
+Route21-2130_Gordon St. at Valley Rd.,2130,Gordon St. at Valley Rd.,,43.516628,-80.203268,,,,0,1
+Route21-2131_Gordon St. at Landsdown Dr.,2131,Gordon St. at Landsdown Dr.,,43.5185,-80.205684,,,,0,1
+Route21-2132_Gordon St. at Harts Lane,2132,Gordon St. at Harts Lane,,43.519667,-80.207481,,,,0,1
+Route21-2133_1030 Gordon St.,2133,1030 Gordon St.,,43.520911,-80.209892,,,,0,1
+Route21-2134_Gordon St. at Kortright Rd. W.,2134,Gordon St. at Kortright Rd. W.,,43.522721,-80.213719,,,,0,1
+Route21-2135_Gordon St. at Hands Dr.,2135,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route21-2136_Gordon St. at Monticello Cres.,2136,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route21-2137_University Centre,2137,University Centre,,43.527039,-80.224506,,,,0,2
+Route21-2138_Gordon St. at Vet College,2138,Gordon St. at Vet College,,43.530994,-80.230666,,,,1,0
+Route21-2139_Gordon St. at Macdonald Stewart Art Centre,2139,Gordon St. at Macdonald Stewart Art Centre,,43.532866,-80.233225,,,,1,0
+Route21-2140_Gordon St. at Dormie Lane,2140,Gordon St. at Dormie Lane,,43.536989,-80.239157,,,,1,0
+Route21-2141_Gordon St. at Water St.,2141,Gordon St. at Water St.,,43.538176,-80.240871,,,,1,0
+Route21-2142_Gordon St. at Wellington St. W.,2142,Gordon St. at Wellington St. W.,,43.541072,-80.245144,,,,1,0
+Route21-2143_Gordon at Harvey's,2143,Gordon at Harvey's,,43.541909,-80.247552,,,,1,0
+Route21-2144_Guelph Central Station,2144,Guelph Central Station,,43.546261,-80.249248,,,,2,0
+Route1A-0100_university centre,0100,University Centre,,43.529524,-80.224506,,,,0,2
+Route1A-0101_gordon st. at stone rd. w.,0101,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route1A-0102_gordon st. at harvard rd.,0102,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,0,1
+Route1A-0103_gordon st. at kortright rd.,0103,Gordon St. at Kortright Rd.,,43.522309,-80.213484,,,,0,1
+Route1A-0104_gordon st. at harts lane,0104,Gordon St. at Harts Lane,,43.519571,-80.207956,,,,0,1
+Route1A-0105_1155 gordon st.,0105,1155 Gordon St.,,43.518045,-80.205824,,,,0,1
+Route1A-0106_gordon st. at edinburgh rd. s.,0106,Gordon St. at Edinburgh Rd. S.,,43.516595,-80.203694,,,,0,1
+Route1A-0107_edinburgh rd. s. at carrington dr.,0107,Edinburgh Rd. S. at Carrington Dr.,,43.513692,-80.206781,,,,0,1
+Route1A-0108_edinburgh rd. s. at rickson ave.,0108,Edinburgh Rd. S. at Rickson Ave.,,43.511637,-80.209561,,,,0,1
+Route1A-0109_edinburgh rd. s. at ginger crt.,0109,Edinburgh Rd. S. at Ginger Crt.,,43.511074,-80.213783,,,,0,1
+Route1A-0110_edinburgh rd. s. at rogers rd.,0110,Edinburgh Rd. S. at Rogers Rd.,,43.512621,-80.218822,,,,0,1
+Route1A-0111_edinburgh rd. s. at koch dr.,0111,Edinburgh Rd. S. at Koch Dr.,,43.516156,-80.226104,,,,0,1
+Route1A-0112_edinburgh rd. s. at laurelwood crt.,0112,Edinburgh Rd. S. at Laurelwood Crt.,,43.517591,-80.230666,,,,0,1
+Route1A-0113_stone rd. w. at stone road mall,0113,Stone Rd. W. at Stone Road Mall,,43.517495,-80.237179,,,,0,1
+Route1A-0114_stone rd. w. at scottsdale dr.,0114,Stone Rd. W. at Scottsdale Dr.,,43.515864,-80.239383,,,,0,1
+Route1A-0115_181 janefield ave.,0115,181 Janefield Ave.,,43.517581,-80.244796,,,,0,1
+Route1A-0116_53 janefield ave.,0116,53 Janefield Ave.,,43.519079,-80.246963,,,,0,1
+Route1A-0117_264 college ave. w.,0117,264 College Ave. W.,,43.521975,-80.246085,,,,0,1
+Route1A-0118_college ave. w. at meadowcroft,0118,College Ave. W. at Meadowcroft,,43.524248,-80.243014,,,,0,1
+Route1A-0119_50 college ave. w.,0119,50 College Ave. W.,,43.529648,-80.235787,,,,0,1
+Route1A-0120_college ave. e. at macdonald st.,0120,College Ave. E. at MacDonald St.,,43.533525,-80.230400,,,,0,1
+Route1A-0121_east ring rd. at dundas lane,0121,East Ring Rd. at Dundas Lane,,43.535121,-80.224988,,,,0,1
+Route1A-0122_east ring rd. at arboretum rd.,0122,East Ring Rd. at Arboretum Rd.,,43.533228,-80.222342,,,,0,1
+Route1A-0123_university centre,0123,University Centre,,43.529524,-80.224506,,,,0,2
+Route1B-0124_university centre,0124,University Centre,,43.529524,-80.224506,,,,0,2
+Route1B-0125_east ring rd. at arboretum rd.,0125,East Ring Rd. at Arboretum Rd.,,43.533414,-80.222235,,,,0,1
+Route1B-0126_east ring rd. at dundas lane,0126,East Ring Rd. at Dundas Lane,,43.535071,-80.224477,,,,0,1
+Route1B-0127_college ave. e. at macdonald st.,0127,College Ave. E. at MacDonald St.,,43.534115,-80.229942,,,,0,1
+Route1B-0128_college ave. w. at caledonia st.,0128,College Ave. W. at Caledonia St.,,43.529727,-80.235897,,,,0,1
+Route1B-0129_college ave. w. at edinburgh rd.,0129,College Ave. W. at Edinburgh Rd.,,43.525349,-80.241837,,,,0,1
+Route1B-0130_college ave. w. at centennial,0130,College Ave. W. at Centennial,,43.521571,-80.247137,,,,0,1
+Route1B-0131_129 janefield ave.,0131,129 Janefield Ave.,,43.517868,-80.245637,,,,0,1
+Route1B-0132_janefield ave. at scottsdale dr.,0132,Janefield Ave. at Scottsdale Dr.,,43.516872,-80.240944,,,,0,1
+Route1B-0133_stone rd. w. at scottsdale dr.,0133,Stone Rd. W. at Scottsdale Dr.,,43.516108,-80.238548,,,,0,1
+Route1B-0134_372 stone rd. w.,0134,372 Stone Rd. W.,,43.517578,-80.236634,,,,0,1
+Route1B-0135_292 stone rd. w.,0135,292 Stone Rd. W.,,43.519475,-80.234214,,,,0,1
+Route1B-0136_583 edinburgh rd. s.,0136,583 Edinburgh Rd. S.,,43.516543,-80.229338,,,,0,1
+Route1B-0137_685 edinburgh rd. s.,0137,685 Edinburgh Rd. S.,,43.515674,-80.223705,,,,0,1
+Route1B-0138_777 edinburgh rd. s.,0138,777 Edinburgh Rd. S.,,43.512606,-80.218928,,,,0,1
+Route1B-0139_edinburgh  rd. s. at ginger crt.,0139,Edinburgh  Rd. S. at Ginger Crt.,,43.510979,-80.213604,,,,0,1
+Route1B-0140_edinburgh rd. s. at rickson ave.,0140,Edinburgh Rd. S. at Rickson Ave.,,43.511550,-80.209314,,,,0,1
+Route1B-0141_edinburgh rd. s. at carrington dr.,0141,Edinburgh Rd. S. at Carrington Dr.,,43.513666,-80.206367,,,,0,1
+Route1B-0142_gordon st. at valley rd.,0142,Gordon St. at Valley Rd.,,43.516653,-80.203242,,,,0,1
+Route1B-0143_gordon st. at landsdown dr.,0143,Gordon St. at Landsdown Dr.,,43.518854,-80.205813,,,,0,1
+Route1B-0144_gordon st. at harts lane,0144,Gordon St. at Harts Lane,,43.519609,-80.207455,,,,0,1
+Route1B-0146_gordon st. at kortright rd.,0146,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route1B-0145_941 gordon st.,0145,941 Gordon St.,,43.520895,-80.210036,,,,0,1
+Route1B-0147_gordon st. at hands dr.,0147,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route1B-0148_gordon st. at monticello cres.,0148,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route1B-0149_gordon st. at stone rd. w.,0149,Gordon St. at Stone Rd. W.,,43.527039,-80.225188,,,,0,1
+Route1B-0150_university centre,0150,University Centre,,43.529524,-80.224506,,,,0,2
+Route12-1200_Guelph Central Station,1200,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route12-1201_Wyndham St. at Bank of Nova Scotia,1201,Wyndham St. at Bank of Nova Scotia,,43.546441,-80.249537,,,,1,0
+Route12-1202_Eramosa Rd. Bridge,1202,Eramosa Rd. Bridge,,43.549049,-80.250385,,,,1,0
+Route12-1203_Delhi St. at Eramosa Rd.,1203,Delhi St. at Eramosa Rd.,,43.553440,-80.250429,,,,1,0
+Route12-1204_Delhi St. at Guelph General Hospital,1204,Delhi St. at Guelph General Hospital,,43.555478,-80.253263,,,,1,0
+Route12-1205_Delhi St. at Homewood Health Centre,1205,Delhi St. at Homewood Health Centre,,43.558023,-80.256817,,,,1,0
+Route12-1206_Delhi St. at Emma St.,1206,Delhi St. at Emma St.,,43.559730,-80.259149,,,,1,0
+Route12-1207_Emma St. at Metcalfe St.,1207,Emma St. at Metcalfe St.,,43.561982,-80.256609,,,,1,0
+Route12-1208_Emma St. at Stevenson St.,1208,Emma St. at Stevenson St.,,43.563510,-80.254526,,,,1,0
+Route12-1209_Speedvale Ave. E. at Stevenson St.,1209,Speedvale Ave. E. at Stevenson St.,,43.566155,-80.257454,,,,1,0
+Route12-1210_Speedvale Ave. E. at Renfield St.,1210,Speedvale Ave. E. at Renfield St.,,43.568988,-80.253555,,,,1,0
+Route12-1211_Speedvale Ave. E. at Acorn Pl.,1211,Speedvale Ave. E. at Acorn Pl.,,43.570197,-80.251898,,,,1,0
+Route12-1212_Victoria Rd. N. at Speedvale Ave. E.,1212,Victoria Rd. N. at Speedvale Ave. E.,,43.57197,-80.251773,,,,1,0
+Route12-1213_Victoria Rd. N. at Brant Ave.,1213,Victoria Rd. N. at Brant Ave.,,43.575281,-80.256345,,,,1,0
+Route12-1214_Woodlawn Rd. E. at Victoria Rd. N.,1214,Woodlawn Rd. E. at Victoria Rd. N.,,43.577375,-80.260566,,,,1,0
+Route12-1215_Windsor St. at Kingsley Crt.,1215,Windsor St. at Kingsley Crt.,,43.572923,-80.260722,,,,1,0
+Route12-1216_Waverly Dr. at Stevenson St.,1216,Waverly Dr. at Stevenson St.,,43.570030,-80.262589,,,,1,0
+Route12-1217_Metcalfe St. at Waverley Dr.,1217,Metcalfe St. at Waverley Dr.,,43.568068,-80.264664,,,,1,0
+Route12-1218_Metcalfe St. at Shaftesbury Ave.,1218,Metcalfe St. at Shaftesbury Ave.,,43.565996,-80.261803,,,,1,0
+Route12-1219_Metcalfe St. at Speedvale  Ave.,1219,Metcalfe St. at Speedvale  Ave.,,43.564553,-80.260110,,,,1,0
+Route12-1220_Speedvale Ave. at Clive Ave.,1220,Speedvale Ave. at Clive Ave.,,43.563067,-80.261976,,,,1,0
+Route12-1221_Delhi St. at Phillip Ave.,1221,Delhi St. at Phillip Ave.,,43.561341,-80.261642,,,,1,0
+Route12-1222_Delhi St. at Emma St.,1222,Delhi St. at Emma St.,,43.559753,-80.259441,,,,1,0
+Route12-1223_Delhi St. at Homewood Health Centre,1223,Delhi St. at Homewood Health Centre,,43.557461,-80.256245,,,,1,0
+Route12-1224_Delhi St. at Spring St.,1224,Delhi St. at Spring St.,,43.555378,-80.253359,,,,1,0
+Route12-1225_Delhi St. at Eramosa Rd.,1225,Delhi St. at Eramosa Rd.,,43.553174,-80.250307,,,,1,0
+Route12-1226_Eramosa Rd. at Arthur St.,1226,Eramosa Rd. at Arthur St.,,43.549165,-80.250571,,,,1,0
+Route12-1227_Wyndham at IF Shoe Store,1227,Wyndham at IF Shoe Store,,43.545578,-80.249017,,,,1,0
+Route12-1228_Guelph Central Station,1228,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route6-0600_university centre,0600,University Centre,,43.5290634619,-80.2238410411,,,,0,2
+Route6-0601_gordon st. at stone rd. w.,0601,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route6-0602_gordon st. at harvard rd.,0602,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,0,1
+Route6-0603_harvard rd. at shakespeare arms,0603,Harvard Rd. at Shakespeare Arms,,43.523990,-80.223439,,,,0,1
+Route6-0604_harvard rd. at princeton pl.,0604,Harvard Rd. at Princeton Pl.,,43.520793,-80.228167,,,,0,1
+Route6-0605_harvard rd. at youngman dr.,0605,Harvard Rd. at Youngman Dr.,,43.518262,-80.228565,,,,0,1
+Route6-0606_edinburgh rd. at laurelwood crt.,0606,Edinburgh Rd. at Laurelwood Crt.,,43.517457,-80.230376,,,,0,1
+Route6-0607_stone rd. w. at stone road mall,0607,Stone Rd. W. at Stone Road Mall,,43.517495,-80.237179,,,,0,1
+Route6-0608_scottsdale dr. at stone rd. w.,0608,Scottsdale Dr. at Stone Rd. W.,,43.514716,-80.238481,,,,0,1
+Route6-0609_scottsdale dr. at cole rd.,0609,Scottsdale Dr. at Cole Rd.,,43.513792,-80.237204,,,,0,1
+Route6-0610_scottsdale dr. at ironwood rd.,0610,Scottsdale Dr. at Ironwood Rd.,,43.512987,-80.235201,,,,0,1
+Route6-0611_ironwood rd. at steffler park,0611,Ironwood Rd. at Steffler Park,,43.511151,-80.235094,,,,0,1
+Route6-0612_ironwood rd. at cole rd.,0612,Ironwood Rd. at Cole Rd.,,43.508854,-80.232937,,,,0,1
+Route6-0613_ironwood rd. at woodborough rd.,0613,Ironwood Rd. at Woodborough Rd.,,43.507108,-80.229901,,,,0,1
+Route6-0614_ironwood rd. at hilldale cres.,0614,Ironwood Rd. at Hilldale Cres.,,43.505669,-80.227176,,,,0,1
+Route6-0615_ironwood rd. at brookhaven crt.,0615,Ironwood Rd. at Brookhaven Crt.,,43.507460,-80.225619,,,,0,1
+Route6-0616_ironwood rd. at kortright rd.,0616,Ironwood Rd. at Kortright Rd.,,43.509886,-80.227975,,,,0,1
+Route6-0617_scottsdale dr. at steffler dr,0617,Scottsdale Dr. at Steffler Dr,,43.511745,-80.230319,,,,0,1
+Route6-0618_711 scottsdale dr.,0618,711 Scottsdale Dr.,,43.513799,-80.236892,,,,0,1
+Route6-0619_632 scottsdale dr.,0619,632 Scottsdale Dr.,,43.514732,-80.238189,,,,0,1
+Route6-0620_stone rd. w. at scottsdale dr.,0620,Stone Rd. W. at Scottsdale Dr.,,43.516108,-80.238548,,,,0,1
+Route6-0621_372 stone rd. w.,0621,372 Stone Rd. W.,,43.517578,-80.236634,,,,0,1
+Route6-0622_stone rd. w. at edinburgh rd. s.,0622,Stone Rd. W. at Edinburgh Rd. S.,,43.519475,-80.234214,,,,0,1
+Route6-0623_youngman dr. at harvard rd.,0623,Youngman Dr. at Harvard Rd.,,43.517933,-80.228173,,,,0,1
+Route6-0624_harvard rd. at princeton pl.,0624,Harvard Rd. at Princeton Pl.,,43.520745,-80.228014,,,,0,1
+Route6-0625_harvard rd. at rickson ave.,0625,Harvard Rd. at Rickson Ave.,,43.522439,-80.225757,,,,0,1
+Route6-0626_35 harvard ave. at plaza,0626,35 Harvard Ave. at Plaza,,43.524268,-80.221632,,,,0,1
+Route6-0627_gordon st. at monticello cres.,0627,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route6-0628_gordon st. at stone rd. w.,0628,Gordon St. at Stone Rd. W.,,43.527039,-80.225188,,,,0,1
+Route6-0629_university centre,0629,University Centre,,43.5290001927,-80.2237748815,,,,0,2
+Route7-0700_university centre,0700,University Centre,,43.5290189503,-80.2237676879,,,,0,2
+Route7-0701_gordon st. at stone rd. w.,0701,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route7-0702_gordon st. at harvard rd.,0702,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,0,1
+Route7-0703_gordon st. at kortright rd.,0703,Gordon St. at Kortright Rd.,,43.522309,-80.213484,,,,0,1
+Route7-0704_kortright rd. at yewholme dr.,0704,Kortright Rd. at Yewholme Dr.,,43.520139,-80.214969,,,,0,1
+Route7-0705_kortright rd. at rickson ave.,0705,Kortright Rd. at Rickson Ave.,,43.516957,-80.216712,,,,0,1
+Route7-0706_kortright rd. at edinburgh rd. s.,0706,Kortright Rd. at Edinburgh Rd. S.,,43.514366,-80.220191,,,,0,1
+Route7-0707_kortright rd. at hanlon creek park,0707,Kortright Rd. at Hanlon Creek Park,,43.511157,-80.224909,,,,0,1
+Route7-0708_555 kortright rd.,0708,555 Kortright Rd.,,43.509150,-80.230868,,,,0,1
+Route7-0709_kortright rd. at hanlon rd.,0709,Kortright Rd. at Hanlon Rd.,,43.507161,-80.233591,,,,0,1
+Route7-0710_downey rd. at woodland glen dr.,0710,Downey Rd. at Woodland Glen Dr.,,43.505301,-80.237312,,,,0,1
+Route7-0711_niska rd. opposite tanager dr.,0711,Niska Rd. opposite Tanager Dr.,,43.504418,-80.242239,,,,0,1
+Route7-0712_ptarmigan dr. at niska rd.,0712,Ptarmigan Dr. at Niska Rd.,,43.503350,-80.246134,,,,0,1
+Route7-0713_ptarmigan dr. at pheasant run dr.,0713,Ptarmigan Dr. at Pheasant Run Dr.,,43.499663,-80.244210,,,,0,1
+Route7-0714_ptarmigan dr. at downey rd.,0714,Ptarmigan Dr. at Downey Rd.,,43.499782,-80.237947,,,,0,1
+Route7-0715_downey rd. at hazelwood dr.,0715,Downey Rd. at Hazelwood Dr.,,43.502415,-80.239046,,,,0,1
+Route7-0716_downey rd. at niska rd.,0716,Downey Rd. at Niska Rd.,,43.504842,-80.237961,,,,0,1
+Route7-0717_kortright rd. at hanlon rd.,0717,Kortright Rd. at Hanlon Rd.,,43.506931,-80.233511,,,,0,1
+Route7-0718_kortright rd. at plaza,0718,Kortright Rd. at Plaza,,43.508986,-80.230697,,,,0,1
+Route7-0719_kortright rd. at hanlon creek park,0719,Kortright Rd. at Hanlon Creek Park,,43.511345,-80.223941,,,,0,1
+Route7-0720_kortright rd. at edinburgh rd. s.,0720,Kortright Rd. at Edinburgh Rd. S.,,43.514312,-80.219867,,,,0,1
+Route7-0721_kortright rd. at rickson ave.,0721,Kortright Rd. at Rickson Ave.,,43.516883,-80.216423,,,,0,1
+Route7-0722_kortright rd. opposite yewholme dr.,0722,Kortright Rd. opposite Yewholme Dr.,,43.521627,-80.212938,,,,0,1
+Route7-0723_gordon st. at kortright rd.,0723,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route7-0724_gordon st. at hands dr.,0724,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route7-0725_gordon st. at monticello cres.,0725,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route7-0726_gordon st. at stone rd. w.,0726,Gordon St. at Stone Rd. W.,,43.527039,-80.225188,,,,0,1
+Route7-0728_university centre,0728,University Centre,,43.5289652518,-80.2237220979,,,,0,2
+Route13-1300_Guelph Central Station,1300,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route13-1301_Wyndham St. at Bank of Nova Scotia,1301,Wyndham St. at Bank of Nova Scotia,,43.546441,-80.249537,,,,1,0
+Route13-1302_Eramosa Rd. Bridge,1302,Eramosa Rd. Bridge,,43.549049,-80.250385,,,,1,0
+Route13-1303_Eramosa Rd. at St. Catharines St.,1303,Eramosa Rd. at St. Catharines St.,,43.555657,-80.249466,,,,1,0
+Route13-1304_Metcalfe St. at Eramosa Rd.,1304,Metcalfe St. at Eramosa Rd.,,43.556495,-80.248788,,,,1,0
+Route13-1305_Metcalfe St. at Lemon St.,1305,Metcalfe St. at Lemon St.,,43.554757,-80.246360,,,,1,0
+Route13-1306_Metcalfe St. at Palmer St.,1306,Metcalfe St. at Palmer St.,,43.553027,-80.243956,,,,1,0
+Route13-1307_Metcalfe St. at Grange St.,1307,Metcalfe St. at Grange St.,,43.551686,-80.242077,,,,1,0
+Route13-1308_Grange St. at Clara St.,1308,Grange St. at Clara St.,,43.552399,-80.240832,,,,1,0
+Route13-1309_Grange St. at Louisa St,1309,Grange St. at Louisa St,,43.553898,-80.238831,,,,1,0
+Route13-1310_Grange St. at Stevenson St.,1310,Grange St. at Stevenson St.,,43.554622,-80.237833,,,,1,0
+Route13-1311_Cassino Ave. at William St.,1311,Cassino Ave. at William St.,,43.558258,-80.240005,,,,1,0
+Route13-1312_Cassino Ave. at Palermo Cres.,1312,Cassino Ave. at Palermo Cres.,,43.561453,-80.235804,,,,1,0
+Route13-1313_Cassino Ave. at Hadati Rd.,1313,Cassino Ave. at Hadati Rd.,,43.562886,-80.234699,,,,1,0
+Route13-1314_Hadati Rd. at Yeats Crt.,1314,Hadati Rd. at Yeats Crt.,,43.564485,-80.237757,,,,1,0
+Route13-1315_Hadati Rd. at Victoria Rd. N.,1315,Hadati Rd. at Victoria Rd. N.,,43.563892,-80.240402,,,,1,0
+Route13-1316_Eastview Rd. at Glenburnie Dr.,1316,Eastview Rd. at Glenburnie Dr.,,43.565338,-80.241265,,,,1,0
+Route13-1317_Eastview Rd. at Mountford Dr.,1317,Eastview Rd. at Mountford Dr.,,43.567369,-80.238478,,,,1,0
+Route13-1318_Starwood Dr. at Watt St.,1318,Starwood Dr. at Watt St.,,43.568800,-80.231242,,,,1,0
+Route13-1319_Watt St. at Auden Rd.,1319,Watt St. at Auden Rd.,,43.567812,-80.232014,,,,1,0
+Route13-1320_Auden Rd. at Eastview Rd.,1320,Auden Rd. at Eastview Rd.,,43.568895,-80.234823,,,,1,0
+Route13-1321_Eastview Rd. at Mountford Dr.,1321,Eastview Rd. at Mountford Dr.,,43.567393,-80.238771,,,,1,0
+Route13-1322_Eastview Rd. at VictoriaRd.,1322,Eastview Rd. at VictoriaRd.,,43.565032,-80.241989,,,,1,0
+Route13-1323_Victoria Rd. N. at Greenview St.,1323,Victoria Rd. N. at Greenview St.,,43.567067,-80.244971,,,,1,0
+Route13-1324_Eramosa Rd. at Orchard Cres.,1324,Eramosa Rd. at Orchard Cres.,,43.567445,-80.248003,,,,1,0
+Route13-1325_Eramosa Rd. at Meyer Dr.,1325,Eramosa Rd. at Meyer Dr.,,43.562369,-80.248754,,,,1,0
+Route13-1326_Eramosa Rd. at Stevenson St.,1326,Eramosa Rd. at Stevenson St.,,43.559599,-80.249172,,,,1,0
+Route13-1327_Eramosa Rd. at Metcalfe St.,1327,Eramosa Rd. at Metcalfe St.,,43.556180,-80.249666,,,,1,0
+Route13-1328_Eramosa Rd. at Arthur St.,1328,Eramosa Rd. at Arthur St.,,43.549165,-80.250571,,,,1,0
+Route13-1329_Wyndham at IF Shoe Store,1329,Wyndham at IF Shoe Store,,43.545578,-80.249017,,,,1,0
+Route13-1330_Guelph Central Station,1330,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route3A-0300_Guelph Central Station,0300,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route3A-0301_Wyndham St. at Bank of Nova Scotia,0301,Wyndham St. at Bank of Nova Scotia,,43.546441,-80.249537,,,,0,1
+Route3A-0302_Woolwich St. at Cardigan St.,0302,Woolwich St. at Cardigan St.,,43.545892,-80.249020,,,,0,1
+Route3A-0303_Suffolk St. at Norfolk St.,0303,Suffolk St. at Norfolk St.,,43.548158,-80.251279,,,,0,1
+Route3A-0304_Suffolk St. at Dublin St.,0304,Suffolk St. at Dublin St.,,43.547351,-80.254939,,,,0,1
+Route3A-0305_Suffolk St. at Glasgow St.,0305,Suffolk St. at Glasgow St.,,43.546415,-80.256760,,,,0,1
+Route3A-0306_Yorkshire St. N. at London Rd. W.,0306,Yorkshire St. N. at London Rd. W.,,43.545548,-80.258462,,,,0,1
+Route3A-0307_Westmount Rd. at Lourdes,0307,Westmount Rd. at Lourdes,,43.547576,-80.266172,,,,0,1
+Route3A-0308_Westmount Rd. at Division St.,0308,Westmount Rd. at Division St.,,43.550057,-80.269504,,,,0,1
+Route3A-0309_St. Joseph's Health Centre,0309,St. Joseph's Health Centre,,43.548167,-80.266982,,,,0,1
+Route3A-0310_Westmount Rd. at Speedvale Ave. W.,0310,Westmount Rd. at Speedvale Ave. W.,,43.550132,-80.269632,,,,0,1
+Route3A-0311_Kathleen St. at June Ave.,0311,Kathleen St. at June Ave.,,43.553416,-80.274223,,,,0,1
+Route3A-0312_Bailey Ave. at Nicklin Rd.,0312,Bailey Ave. at Nicklin Rd.,,43.556149,-80.273176,,,,0,1
+Route3A-0313_Nicklin Rd. at Woodlawn Rd.,0313,Nicklin Rd. at Woodlawn Rd.,,43.560098,-80.282287,,,,0,1
+Route3A-0314_Smart Centre Guelph,0314,Smart Centre Guelph,,43.556747,-80.277169,,,,0,1
+Route3A-0315_21 Woodlawn Rd. E.,0315,21 Woodlawn Rd. E.,,43.565031,-80.280726,,,,0,1
+Route3A-0316_Woodlawn Rd. E. at opposite Seniors Centre,0316,Woodlawn Rd. E. at opposite Seniors Centre,,43.568502,-80.272502,,,,0,1
+Route3A-0317_Woodlawn Rd. E. at Fairway Lane,0317,Woodlawn Rd. E. at Fairway Lane,,43.569297,-80.271413,,,,0,1
+Route3A-0318_Woodlawn Rd. E. at Golfview Dr.,0318,Woodlawn Rd. E. at Golfview Dr.,,43.572001,-80.267661,,,,0,1
+Route3A-0319_Inverness Dr. at Glenbrook Dr.,0319,Inverness Dr. at Glenbrook Dr.,,43.574348,-80.264362,,,,0,1
+Route3A-0320_Inverness Dr. at Simmonds Dr.,0320,Inverness Dr. at Simmonds Dr.,,43.576641,-80.263157,,,,0,1
+Route3A-0321_Victoria Rd. N. at Trillium Waldorf,0321,Victoria Rd. N. at Trillium Waldorf,,43.579419,-80.267052,,,,0,1
+Route3A-0322_Victoria Rd. N. at Woodlawn Rd. E.,0322,Victoria Rd. N. at Woodlawn Rd. E.,,43.580587,-80.263922,,,,0,1
+Route3A-0323_Victoria Rd. N . at Delta St.,0323,Victoria Rd. N . at Delta St.,,43.578088,-80.260540,,,,0,1
+Route3A-0324_Victoria Rd. N. at Speedvale Ave. E.,0324,Victoria Rd. N. at Speedvale Ave. E.,,43.574215,-80.255175,,,,0,1
+Route3A-0325_Victoria Rd. N. at Eramosa Rd.,0325,Victoria Rd. N. at Eramosa Rd.,,43.57071,-80.250349,,,,0,1
+Route3A-0326_Victoria Rd. N. at St. Paul's Church,0326,Victoria Rd. N. at St. Paul's Church,,43.569232,-80.248344,,,,0,1
+Route3A-0327_Eastview Rd. at Glenburnie Dr.,0327,Eastview Rd. at Glenburnie Dr.,,43.566676,-80.244711,,,,0,1
+Route3A-0328_Eastview Rd. at Mountford Dr.,0328,Eastview Rd. at Mountford Dr.,,43.565338,-80.241265,,,,0,1
+Route3A-0329_Eastview Rd. at Auden Rd.,0329,Eastview Rd. at Auden Rd.,,43.567369,-80.238478,,,,0,1
+Route3A-0330_Eastview Rd. at Summit Ridge Dr.,0330,Eastview Rd. at Summit Ridge Dr.,,43.572509,-80.231266,,,,0,1
+Route3A-0331_Watson Pkwy N. at Grange Rd.,0331,Watson Pkwy N. at Grange Rd.,,43.570255,-80.234530,,,,0,1
+Route3A-0332_Watson Pkwy N. at Fleming Rd.,0332,Watson Pkwy N. at Fleming Rd.,,43.573466,-80.217970,,,,0,1
+Route3A-0333_Watson Pkwy N. at Library,0333,Watson Pkwy N. at Library,,43.570527,-80.213770,,,,0,1
+Route3A-0334_York Rd. At Watson Pkwy N.,0334,York Rd. At Watson Pkwy N.,,43.566571,-80.211793,,,,0,1
+Route3A-0335_York Rd. at Yorkhaven Pl.,0335,York Rd. at Yorkhaven Pl.,,43.56144,-80.210956,,,,0,1
+Route3A-0336_York Rd. at Royal City Jaycees Park,0336,York Rd. at Royal City Jaycees Park,,43.557049,-80.217005,,,,0,1
+Route3A-0337_York Rd. at Beaumont Cres.,0337,York Rd. at Beaumont Cres.,,43.554908,-80.219940,,,,0,1
+Route3A-0338_Victoria Rd. at York Rd.,0338,Victoria Rd. at York Rd.,,43.551612,-80.223573,,,,0,1
+Route3A-0339_Stone Rd. E. at Victoria Rd. S.,0339,Stone Rd. E. at Victoria Rd. S.,,43.539442,-80.207876,,,,0,1
+Route3A-0340_Stone Rd. E. at Arbour Medical Centre,0340,Stone Rd. E. at Arbour Medical Centre,,43.533696,-80.215470,,,,0,1
+Route3A-0341_University Centre,0341,University Centre,,43.530139,-80.225670,,,,0,2
+Route3A-0342_Gordon St. at Vet College,0342,Gordon St. at Vet College,,43.531442,-80.231459,,,,1,0
+Route3A-0343_Gordon St. at Macdonald Stewart Art Centre,0343,Gordon St. at Macdonald Stewart Art Centre,,43.532842,-80.233321,,,,1,0
+Route3A-0344_Gordon St. at Dormie Lane,0344,Gordon St. at Dormie Lane,,43.536904,-80.239148,,,,1,0
+Route3A-0345_Gordon St. at Water St.,0345,Gordon St. at Water St.,,43.538124,-80.240880,,,,1,0
+Route3A-0348_Guelph Central Station,0348,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route5-0500_Guelph Central Station,0500,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route5-0501_Gordon St. at Nottingham St.,0501,Gordon St. at Nottingham St.,,43.541833,-80.248111,,,,0,1
+Route5-0502_Gordon St. at Wellington St.,0502,Gordon St. at Wellington St.,,43.540815,-80.245214,,,,0,1
+Route5-0503_Gordon St. at Water St.,0503,Gordon St. at Water St.,,43.53833,-80.245214,,,,0,1
+Route5-0504_Gordon St. at Forbes Ave.,0504,Gordon St. at Forbes Ave.,,43.537154,-80.239813,,,,0,1
+Route5-0505_Gordon St. at Dean Ave.,0505,Gordon St. at Dean Ave.,,43.534009,-80.235469,,,,0,1
+Route5-0506_Gordon St. at College Ave.,0506,Gordon St. at College Ave.,,43.531512,-80.231928,,,,0,1
+Route5-0507_University Centre Arrive,0507,University Centre Arrive,,43.529524,-80.224506,,,,0,2
+Route5-0507_University Centre,0507,University Centre,,43.529524,-80.224506,,,,0,2
+Route5-0508_Gordon St. at Stone Rd. W.,0508,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route5-0509_Gordon St. at Harvard Rd.,0509,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,0,1
+Route5-0510_Gordon St. at Kortright Rd.,0510,Gordon St. at Kortright Rd.,,43.522309,-80.213484,,,,0,1
+Route5-0511_Gordon St. at Harts Lane,0511,Gordon St. at Harts Lane,,43.519571,-80.207956,,,,0,1
+Route5-0512_1155 Gordon St.,0512,1155 Gordon St.,,43.518045,-80.205824,,,,0,1
+Route5-0513_Gordon St. at Edinburgh Rd. S.,0513,Gordon St. at Edinburgh Rd. S.,,43.516595,-80.203694,,,,0,1
+Route5-0514_Arkell Rd. at Gordon St.,0514,Arkell Rd. at Gordon St.,,43.514317,-80.198502,,,,0,1
+Route5-0515_Arkell Rd. at Ridgeway  Ave.,0515,Arkell Rd. at Ridgeway  Ave.,,43.516206,-80.196032,,,,0,1
+Route5-0516_Summerfield Dr. at Amsterdam Cres.,0516,Summerfield Dr. at Amsterdam Cres.,,43.517618,-80.190957,,,,0,1
+Route5-0517_Summerfield Dr. at Cummings Crt.,0517,Summerfield Dr. at Cummings Crt.,,43.515529,-80.188602,,,,0,1
+Route5-0518_Summerfield Dr. at Bright Lane,0518,Summerfield Dr. at Bright Lane,,43.516626,-80.184407,,,,0,1
+Route5-0519_Summerfield Dr. at Victoria Rd. S.,0519,Summerfield Dr. at Victoria Rd. S.,,43.519835,-80.179976,,,,0,1
+Route5-0520_Frederick Dr. at Waterford Dr.,0520,Frederick Dr. at Waterford Dr.,,43.515015,-80.175363,,,,0,1
+Route5-0521_Goodwin Dr. at Ray Cres.,0521,Goodwin Dr. at Ray Cres.,,43.511743,-80.177101,,,,0,1
+Route5-0522_Goodwin Dr. at Orin Reid Park,0522,Goodwin Dr. at Orin Reid Park,,43.508079,-80.181977,,,,0,1
+Route5-0523_Goodwin Dr. at Sinclair St.,0523,Goodwin Dr. at Sinclair St.,,43.505911,-80.184901,,,,0,1
+Route5-0524_Goodwin Dr. at Darling Cres.,0524,Goodwin Dr. at Darling Cres.,,43.504005,-80.186972,,,,0,1
+Route5-0525_Goodwin Dr. at Eugene Dr.,0525,Goodwin Dr. at Eugene Dr.,,43.503149,-80.188012,,,,0,1
+Route5-0526_Farley Dr. at Porter Dr.,0526,Farley Dr. at Porter Dr.,,43.504066,-80.190228,,,,0,1
+Route5-0527_Pine Ridge Dr. at Periwinkle Way,0527,Pine Ridge Dr. at Periwinkle Way,,43.508404,-80.192302,,,,0,1
+Route5-0528_Gordon St. at Lowes Rd.,0528,Gordon St. at Lowes Rd.,,43.509005,-80.195565,,,,0,1
+Route5-0529_Gordon St. at Continuing Education,0529,Gordon St. at Continuing Education,,43.511767,-80.196885,,,,0,1
+Route5-0530_Gordon St. at Arkell Rd.,0530,Gordon St. at Arkell Rd.,,43.514027,-80.199648,,,,0,1
+Route5-0531_Gordon St. at Valley Rd.,0531,Gordon St. at Valley Rd.,,43.516653,-80.203242,,,,0,1
+Route5-0532_Gordon St. at Landsdown Dr.,0532,Gordon St. at Landsdown Dr.,,43.518854,-80.205813,,,,0,1
+Route5-0533_Gordon St. at Harts Lane,0533,Gordon St. at Harts Lane,,43.519609,-80.207455,,,,0,1
+Route5-0534_1030 Gordon St.,0534,1030 Gordon St.,,43.520895,-80.210036,,,,0,1
+Route5-0535_Gordon St. at Kortright Rd.,0535,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route5-0536_Gordon St. at Hands Dr.,0536,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route5-0537_Gordon St. at Monticello Cres.,0537,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route5-0538_University Centre Arrive,0538,University Centre Arrive,,43.527039,-80.224506,,,,0,2
+Route5-0538_University Centre,0538,University Centre,,43.527039,-80.224506,,,,0,2
+Route5-0539_Gordon St. at Vet College,0539,Gordon St. at Vet College,,43.531442,-80.231459,,,,1,0
+Route5-0540_Gordon St. at Macdonald Stewart Art Centre,0540,Gordon St. at Macdonald Stewart Art Centre,,43.532842,-80.233321,,,,1,0
+Route5-0541_Gordon St. at Dormie Lane,0541,Gordon St. at Dormie Lane,,43.536904,-80.239148,,,,1,0
+Route5-0542_Gordon St. at Water St.,0542,Gordon St. at Water St.,,43.538124,-80.240880,,,,1,0
+Route5-0543_Gordon St. at Wellington St.,0543,Gordon St. at Wellington St.,,43.541072,-80.245274,,,,1,0
+Route5-0544_Gordon St. at Harvey's,0544,Gordon St. at Harvey's,,43.541884,-80.247619,,,,1,0
+Route5-0545_City Hall,0545,City Hall,,43.543346,-80.249107,,,,1,0
+Route5-0546_Guelph Central Station,0546,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route15-1500_university centre,1500,University Centre,,43.530139124615,-80.22567,,,,0,2
+Route15-1501_gordon st. at stone rd. w.,1501,Gordon St. at Stone Rd. W.,,43.527478,-80.226352,,,,0,1
+Route15-1502_stone rd. w. at gordon st.,1502,Stone Rd. W. at Gordon St.,,43.526145,-80.225538,,,,0,1
+Route15-1503_stone rd. w. at fire hall,1503,Stone Rd. W. at Fire Hall,,43.524050,-80.228457,,,,0,1
+Route15-1504_stone rd. w. at zellers,1504,Stone Rd. W. at Zellers,,43.522019,-80.231231,,,,0,1
+Route15-1505_stone rd. w. edinburgh rd. s.,1505,Stone Rd. W. Edinburgh Rd. S.,,43.520363,-80.233352,,,,0,1
+Route15-1506_stone rd. w. at stone rd mall,1506,Stone Rd. W. at Stone Rd Mall,,43.517856,-80.236974,,,,0,1
+Route15-1507_stone rd. w. at scottsdale dr.,1507,Stone Rd. W. at Scottsdale Dr.,,43.516019,-80.239549,,,,0,1
+Route15-1508_stone rd. w at woodland glen dr.,1508,Stone Rd. W at Woodland Glen Dr.,,43.509914,-80.247323,,,,0,1
+Route15-1509_college ave. w. at flanders rd.,1509,College Ave. W. at Flanders Rd.,,43.510561,-80.250192,,,,0,1
+Route15-1510_college ave. w. at conroy cres.,1510,College Ave. W. at Conroy Cres.,,43.511738,-80.252804,,,,0,1
+Route15-1511_college ave. w. at argyle dr.,1511,College Ave. W. at Argyle Dr.,,43.513969,-80.256203,,,,0,1
+Route15-1512_506 college ave. w.,1512,506 College Ave. W.,,43.513974835,-80.2562593432,,,,0,1
+Route15-1513_college ave. w. east of hanlon,1513,College Ave. W. east of Hanlon,,43.519598,-80.249119,,,,0,1
+Route15-1514_129 janefield ave.,1514,129 Janefield Ave.,,43.517968,-80.245711,,,,0,1
+Route15-1515_janefield ave. at scottsdale dr.,1515,Janefield Ave. at Scottsdale Dr.,,43.516792,-80.240925,,,,0,1
+Route15-1516_stone road mall,1516,Stone Road Mall,,43.518846,-80.239222,,,,0,1
+Route15-1517_scottsdale dr. at wilsonview ave.,1517,Scottsdale Dr. at Wilsonview Ave.,,43.520977257153,-80.23997,,,,0,1
+Route15-1518_wilsonview ave.,1518,Wilsonview Ave.,,43.522155872961,-80.23865,,,,0,1
+Route15-1519_edinburgh rd at chancellors way,1519,Edinburgh Rd at Chancellors Way,,43.521444038444,-80.2361,,,,0,1
+Route15-1520_stone rd. opposite zellers,1520,Stone Rd. opposite Zellers,,43.521656033755,-80.23126,,,,0,1
+Route15-1521_95 stone rd. w.,1521,95 Stone Rd. W.,,43.524668620547,-80.22719,,,,0,1
+Route15-1522_university centre,1522,University Centre,,43.5298048358,-80.2248992018,,,,0,2
+Route8-0800_Guelph Central Station,0800,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route8-0801_Wyndham St. at Farquhar St.,0801,Wyndham St. at Farquhar St.,,43.543617,-80.246479,,,,1,0
+Route8-0802_Wellington St. at KFC,0802,Wellington St. at KFC,,43.542276,-80.243974,,,,1,0
+Route8-0803_Gordon St. at Water St.,0803,Gordon St. at Water St.,,43.5382652,-80.24134308,,,,1,0
+Route8-0804_Water St. at McCrae Blvd.,0804,Water St. at McCrae Blvd.,,43.536163,-80.245144,,,,1,0
+Route8-0805_Water St. at Maple St.,0805,Water St. at Maple St.,,43.535130,-80.246552,,,,1,0
+Route8-0806_Maple St. at Forest St.,0806,Maple St. at Forest St.,,43.531946,-80.243610,,,,1,0
+Route8-0807_Forest St. at Park,0807,Forest St. at Park,,43.530027,-80.246148,,,,1,0
+Route8-0808_Edinburgh Rd. S. at Maplewood Dr.,0808,Edinburgh Rd. S. at Maplewood Dr.,,43.527403,-80.244524,,,,1,0
+Route8-0809_College Ave. W. at Edinburgh Rd.,0809,College Ave. W. at Edinburgh Rd.,,43.525295,-80.241992,,,,1,0
+Route8-0810_College Ave. W. at Centennial,0810,College Ave. W. at Centennial,,43.521545,-80.247091,,,,1,0
+Route8-0811_129 Janefield Ave.,0811,129 Janefield Ave.,,43.517968,-80.245711,,,,1,0
+Route8-0812_Janefield Ave. at Scottsdale Dr.,0812,Janefield Ave. at Scottsdale Dr.,,43.516792,-80.240925,,,,1,0
+Route8-0813_Stone Road Mall,0813,Stone Road Mall,,43.518846,-80.239222,,,,1,0
+Route8-0814_Scottsdale Dr. at Wilsonview Ave.,0814,Scottsdale Dr. at Wilsonview Ave.,,43.52097726,-80.23997247,,,,1,0
+Route8-0815_220 Scottsdale Dr.,0815,220 Scottsdale Dr.,,43.521683,-80.241866,,,,1,0
+Route8-0816_Scottsdale Dr. at College Ave. W.,0816,Scottsdale Dr. at College Ave. W.,,43.52328,-80.243572,,,,1,0
+Route8-0817_College Ave. W. at Meadowcroft,0817,College Ave. W. at Meadowcroft,,43.524313,-80.243011,,,,1,0
+Route8-0818_Edinburgh Rd. S. at Floral Dr.,0818,Edinburgh Rd. S. at Floral Dr.,,43.526849,-80.243384,,,,1,0
+Route8-0819_Edinburgh Rd. S. at Lockyer Rd.,0819,Edinburgh Rd. S. at Lockyer Rd.,,43.528513,-80.245737,,,,1,0
+Route8-0820_Edinburgh Rd. S. at Municipal St.,0820,Edinburgh Rd. S. at Municipal St.,,43.529964,-80.247792,,,,1,0
+Route8-0821_Edinburgh Rd. S. at Honey Cres.,0821,Edinburgh Rd. S. at Honey Cres.,,43.532367,-80.251159,,,,1,0
+Route8-0822_Bristol St. at McGee St.,0822,Bristol St. at McGee St.,,43.535829,-80.253496,,,,1,0
+Route8-0823_Yorkshire St. S. at Waterloo Ave.,0823,Yorkshire St. S. at Waterloo Ave.,,43.537985,-80.252973,,,,1,0
+Route8-0824_Waterloo Ave. at Glasgow St.,0824,Waterloo Ave. at Glasgow St.,,43.539053,-80.252146,,,,1,0
+Route8-0825_Waterloo Ave. at Norfolk St.,0825,Waterloo Ave. at Norfolk St.,,43.541228,-80.249835,,,,1,0
+Route8-0826_Guelph City Hall,0826,Guelph City Hall,,43.543346,-80.249107,,,,1,0
+Route8-0827_Guelph Central Station,0827,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route9-0900_Guelph Central Station,0900,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route9-0901_3 Waterloo Ave.,0901,3 Waterloo Ave.,,43.541423,-80.249839,,,,1,0
+Route9-0902_Waterloo Ave. at Glasgow St.,0902,Waterloo Ave. at Glasgow St.,,43.538905,-80.252519,,,,1,0
+Route9-0903_Waterloo Ave. at Yorkshire St. S.,0903,Waterloo Ave. at Yorkshire St.S.,,43.536579,-80.254987,,,,1,0
+Route9-0904_225 Waterloo Ave.,0904,225 Waterloo Ave.,,43.535168,-80.256495,,,,1,0
+Route9-0905_Waterloo Ave. at Beachwood Ave.,0905,Waterloo Ave. at Beachwood Ave.,,43.531039,-80.260912,,,,1,0
+Route9-0906_387 Waterloo Ave.,0906,387 Waterloo Ave.,,43.531329,-80.260792,,,,1,0
+Route9-0907_659 Wellington St. N.,0907,659 Wellington St. N.,,43.522836,-80.267662,,,,1,0
+Route9-0908_Imperial Rd. S. at Wellington St. N.,0908,Imperial Rd. S. at Wellington St. N.,,43.522844,-80.267664,,,,1,0
+Route9-0909_Imperial Rd. S. at Stephanie Dr.,0909,Imperial Rd. S. at Stephanie Dr.,,43.523257,-80.275745,,,,1,0
+Route9-0910_Imperial Rd. S. at Deerpath Dr.,0910,Imperial Rd. S. at Deerpath Dr.,,43.525287,-80.279945,,,,1,0
+Route9-0911_Imperial Rd. S.  at Paisley St.,0911,Imperial Rd. S.  at Paisley St.,,43.525522,-80.284368,,,,1,0
+Route9-0912_Paisley Rd. at Zehrs,0912,Paisley Rd. at Zehrs,,43.522527,-80.288064,,,,1,0
+Route9-0913_Stephanie Dr. at Hollyberry Pl,0913,Stephanie Dr. at Hollyberry Pl,,43.522384,-80.281820,,,,1,0
+Route9-0914_Stephanie Dr. at Imperial Rd.,0914,Stephanie Dr. at Imperial Rd.,,43.522953,-80.276464,,,,1,0
+Route9-0915_Imperial Rd. at West Acres Dr.,0915,Imperial Rd. at West Acres Dr.,,43.522296,-80.273921,,,,1,0
+Route9-0916_Imperial Rd. S. at Tim Hortons,0916,Imperial Rd. S. at Tim Hortons,,43.520752,-80.269868,,,,1,0
+Route9-0917_Wellington St. W. at Wastewater Treatment Plant,0917,Wellington St. W. at Wastewater Treatment Plant,,43.522873,-80.267234,,,,1,0
+Route9-0918_364 Waterloo Rd.,0918,364 Waterloo Rd.,,43.531117,-80.260625,,,,1,0
+Route9-0919_Waterloo Ave. at St. Arnaud St.,0919,Waterloo Ave. at St. Arnaud St.,,43.533616,-80.257973,,,,1,0
+Route9-0920_180 Waterloo Ave.,0920,180 Waterloo Ave.,,43.536488,-80.254882,,,,1,0
+Route9-0921_Waterloo Ave. at Glasgow St.,0921,Waterloo Ave. at Glasgow St.,,43.539053,-80.252146,,,,1,0
+Route9-0922_Waterloo Ave. at Norfolk  St.,0922,Waterloo Ave. at Norfolk  St.,,43.541228,-80.249835,,,,1,0
+Route9-0923_Guelph City Hall,0923,Guelph City Hall,,43.543346,-80.249107,,,,1,0
+Route9-0924_Guelph Central Station,0924,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route56-5600_University Dep,5600,University Dep,,43.529524,-80.224506,,,,0,2
+Route56-5601_Stone at Victoria,5601,Stone at Victoria,,43.538966,-80.208101,,,,0,1
+Route56-5602_1035 Victoria,5602,1035 Victoria,,43.533012,-80.197783,,,,0,1
+Route56-5617_Victoria at Arkell,5617,Victoria at Arkell,,43.523694,-80.1851,,,,0,1
+Route56-5603_Victoria @ Summerfield,5603,Victoria @ Summerfield,,43.519637,-80.179537,,,,0,1
+Route56-5618_Victoria Rd. S at Katemore Dr.,5618,Victoria Rd. S at Katemore Dr.,,43.517774,-80.176994,,,,0,1
+Route56-5604_Frederick Dr. at Waterford Dr.,5604,Frederick Dr. at Waterford Dr.,,43.515015,-80.175363,,,,0,1
+Route56-5605_264 Colonial,5605,264 Colonial,,43.516704,-80.180326,,,,0,1
+Route56-5606_Colonial North of Marsh,5606,Colonial North of Marsh,,43.518902,-80.183523,,,,0,1
+Route56-5607_Colonial north of Bard Bv.,5607,Colonial north of Bard Bv.,,43.520837,-80.186929,,,,0,1
+Route56-5608_Gordon St. at Arkell Rd.,5608,Gordon St. at Arkell Rd.,,43.514027,-80.199648,,,,0,1
+Route56-5609_Gordon @ Valley,5609,Gordon @ Valley,,43.516653,-80.203242,,,,0,1
+Route56-5610_Gordon St. at Landsdown Dr.,5610,Gordon St. at Landsdown Dr.,,43.518854,-80.205813,,,,0,1
+Route56-5611_Gordon St. at Harts Lane,5611,Gordon St. at Harts Lane,,43.519609,-80.207455,,,,0,1
+Route56-5612_1030 Gordon St.,5612,1030 Gordon St.,,43.520895,-80.210036,,,,0,1
+Route56-5613_Gordon St. at Kortright Rd.,5613,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route56-5614_Gordon @ Hands,5614,Gordon @ Hands,,43.524266,-80.216865,,,,0,1
+Route56-5615_Gordon St. at Monticello Cres.,5615,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route56-5616_University Arr,5616,University Arr,,43.545180,-80.246050,,,,0,2
+Route57-5700_University Dep,5700,University Dep,,43.5300871,-80.22514689,,,,0,2
+Route57-5701_Gordon St. at Stone Rd. W.,5701,Gordon St. at Stone Rd. W.,,43.52734677,-80.22615966,,,,0,1
+Route57-5702_Gordon St. at Harvard Rd.,5702,Gordon St. at Harvard Rd.,,43.52544175,-80.22118988,,,,0,1
+Route57-5703_Harvard Rd. at Shakespeare Arms,5703,Harvard Rd. at Shakespeare Arms,,43.52403582,-80.2228434,,,,0,1
+Route57-5704_Harvard Rd. at Princeton Pl.,5704,Harvard Rd. at Princeton Pl.,,43.5204771,-80.22858985,,,,0,1
+Route57-5705_Harvard Rd. at Youngman Dr.,5705,Harvard Rd. at Youngman Dr.,,43.51812986,-80.22837459,,,,0,1
+Route57-5706_Ironwood Rd. at Reid Crt.,5706,Ironwood Rd. at Reid Crt.,,43.51523937,-80.23184091,,,,0,1
+Route57-5707_711 Scottsdale Dr.,5707,711 Scottsdale Dr.,,43.51304815,-80.23445164,,,,0,1
+Route57-5708_632 Scottsdale Dr.,5708,632 Scottsdale Dr.,,43.51324305,-80.2355045,,,,0,1
+Route57-5709_Scottsdale @ Stone,5709,Scottsdale @ Stone,,43.51475093,-80.23819991,,,,0,1
+Route57-5710_372 Stone Rd. W.,5710,372 Stone Rd. W.,,43.51614704,-80.2385857,,,,0,1
+Route57-5711_Stone Rd. W. at Edinburgh Rd. S.,5711,Stone Rd. W. at Edinburgh Rd. S.,,43.51758919,-80.23664118,,,,0,1
+Route57-5712_Stone Rd. opposite Zellers,5712,Stone Rd. opposite Zellers,,43.51946083,-80.23418163,,,,0,1
+Route57-5713_95 Stone Rd. W.,5713,95 Stone Rd. W.,,43.52163401,-80.2312634,,,,0,1
+Route57-5714_University Arr,5714,University Arr,,43.52467,-80.22718783,,,,0,2
+Route58-5800_University Dep,5800,University Dep,,43.529524,-80.224506,,,,0,2
+Route58-5801_Stone Rd. W. at Gordon St.,5801,Stone Rd. W. at Gordon St.,,43.526145,-80.225538,,,,0,1
+Route58-5802_Stone Rd. W. at Fire Hall,5802,Stone Rd. W. at Fire Hall,,43.524050,-80.228457,,,,0,1
+Route58-5803_Stone Rd. W. at Zellers,5803,Stone Rd. W. at Zellers,,43.522019,-80.231231,,,,0,1
+Route58-5804_583 Edinburgh Rd. S.,5804,583 Edinburgh Rd. S.,,43.516543,-80.229338,,,,0,1
+Route58-5805_685 Edinburgh Rd. S.,5805,685 Edinburgh Rd. S.,,43.515674,-80.223705,,,,0,1
+Route58-5806_Kortright Rd. at Edinburgh Rd. S.,5806,Kortright Rd. at Edinburgh Rd. S.,,43.514312,-80.219867,,,,0,1
+Route58-5807_Kortright Rd. at Rickson Ave.,5807,Kortright Rd. at Rickson Ave.,,43.516883,-80.216423,,,,0,1
+Route58-5808_Kortright Rd. opposite Yewholme Dr.,5808,Kortright Rd. opposite Yewholme Dr.,,43.521627,-80.212938,,,,0,1
+Route58-5809_Gordon St. at Kortright Rd.,5809,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route58-5810_Gordon St. at Hands Dr.,5810,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route58-5811_Gordon St. at Monticello Cres.,5811,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route58-5812_University Centre,5812,University Centre,,43.529524,-80.224506,,,,0,2
+Route50-5000_University Dep,5000,University Dep,,43.529524,-80.224506,,,,0,2
+Route50-5001_Stone Rd. W. at Gordon St.,5001,Stone Rd. W. at Gordon St.,,43.526145,-80.225538,,,,0,1
+Route50-5002_Stone Rd. W. at Fire Hall,5002,Stone Rd. W. at Fire Hall,,43.524050,-80.228457,,,,0,1
+Route50-5003_Stone Rd. W. at Zellers,5003,Stone Rd. W. at Zellers,,43.522019,-80.231231,,,,0,1
+Route50-5004_Stone Rd. W. Edinburgh Rd. S.,5004,Stone Rd. W. Edinburgh Rd. S.,,43.520363,-80.233352,,,,0,1
+Route50-5005_Stone Rd. W. at Stone Rd Mall,5005,Stone Rd. W. at Stone Rd Mall,,43.517856,-80.236974,,,,0,1
+Route50-5006_Stone Rd. W. at Scottsdale Dr.,5006,Stone Rd. W. at Scottsdale Dr.,,43.516019,-80.239549,,,,0,1
+Route50-5007_Stone Rd Mall,5007,Stone Rd Mall,,43.518846,-80.239222,,,,0,1
+Route50-5008_Scottsdale Dr. at Wilsonview Ave.,5008,Scottsdale Dr. at Wilsonview Ave.,,43.52097726,-800,1.23997,,,,0,1
+Route50-5009_Wilsonview Ave.,5009,Wilsonview Ave.,,43.52215587,-80.23865,,,,0,1
+Route50-5010_Edinburgh Rd at Chancellors Way,5010,Edinburgh Rd at Chancellors Way,,43.52144404,-80.2361,,,,0,1
+Route50-5011_Stone Rd. opposite Zellers,5011,Stone Rd. opposite Zellers,,43.52165603,-80.23126,,,,0,1
+Route50-5012_95 Stone Rd. W.,5012,95 Stone Rd. W.,,43.52466862,-80.22719,,,,0,1
+Route50-5013_University Centre,5013,University Centre,,43.53013912,-80.22567,,,,0,2
+Route16-1600_Guelph Central Station,1600,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route16-1601_Wellington St. at KFC,1601,Wellington St. at KFC,,43.542276,-80.243974,,,,1,0
+Route16-1602_Gordon St. at Water St.,1602,Gordon St. at Water St.,,43.538302,-80.241373,,,,1,0
+Route16-1603_Gordon St. at Forbes Ave.,1603,Gordon St. at Forbes Ave.,,43.537154,-80.239813,,,,1,0
+Route16-1604_Gordon St. at Dean Ave.,1604,Gordon St. at Dean Ave.,,43.534009,-80.235469,,,,1,0
+Route16-1605_Gordon St. at College Ave.,1605,Gordon St. at College Ave.,,43.531512,-80.231928,,,,1,0
+Route16-1606_Gordon St. at Stone Rd. W.,1606,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,1,0
+Route16-1607_Gordon St. at Harvard Rd.,1607,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,1,0
+Route16-1608_Gordon St. at Kortright Rd.,1608,Gordon St. at Kortright Rd.,,43.522309,-80.213484,,,,1,0
+Route16-1609_Gordon St. at Harts Lane,1609,Gordon St. at Harts Lane,,43.519571,-80.207956,,,,1,0
+Route16-1610_1155 Gordon St.,1610,1155 Gordon St.,,43.518045,-80.205824,,,,1,0
+Route16-1611_Gordon St. at Edinburgh Rd. S.,1611,Gordon St. at Edinburgh Rd. S.,,43.516595,-80.203694,,,,1,0
+Route16-1612_Gordon @ Arkell,1612,Gordon @ Arkell,,43.513888,-80.19989,,,,1,0
+Route16-1613_1417Gordon,1613,1417Gordon,,43.511734,-80.197178,,,,1,0
+Route16-1614_Gordon @Lowes,1614,Gordon @Lowes,,43.508884,-80.19581,,,,1,0
+Route16-1615_Gordon @ Clairfields,1615,Gordon @ Clairfields,,43.505161,-80.194351,,,,1,0
+Route16-1616_25 Clairfields,1616,25 Clairfields,,43.503778,-80.195952,,,,1,0
+Route16-1617_Opposite 116 Clairfields,1617,Opposite 116 Clairfields,,43.498568,-80.199409,,,,1,0
+Route16-1618_Clairfields @ Boulder CR.,1618,Clairfields @ Boulder CR.,,43.495645,-80.196711,,,,1,0
+Route16-1619_Laird Rd. at Clair Rd. W.,1619,Laird Rd. at Clair Rd. W.,,43.492751,-80.200238,,,,1,0
+Route16-1620_Southgate Dr. at Laird Rd.,1620,Southgate Dr. at Laird Rd.,,43.49437,-80.207405,,,,1,0
+Route16-1621_125 Southgate Dr.,1621,125 Southgate Dr.,,43.497763,-80.211439,,,,1,0
+Route16-1622_180 Southgate Dr.,1622,180 Southgate Dr.,,43.500192,-80.213584,,,,1,0
+Route16-1623_310 Southgate Dr.,1623,310 Southgate Dr.,,43.502246,-80.217576,,,,1,0
+Route16-1624_450 Southgate Dr.,1624,450 Southgate Dr.,,43.500098,-80.219979,,,,1,0
+Route16-1625_525 Southgate Dr.,1625,525 Southgate Dr.,,43.497763,-80.21749,,,,1,0
+Route16-1626_595 Southgate Dr.,1626,595 Southgate Dr.,,43.494526,-80.213713,,,,1,0
+Route16-1627_679 Southgate Dr.,1627,679 Southgate Dr.,,43.49297,-80.209943,,,,1,0
+Route16-1628_Southgate Dr. at Corporate Rd.,1628,Southgate Dr. at Corporate Rd.,,43.492192,-80.208765,,,,1,0
+Route16-1629_Southgate Dr. at Admiral Pl.,1629,Southgate Dr. at Admiral Pl.,,43.491034,-80.207102,,,,1,0
+Route16-1630_829 Southgate Dr.,1630,829 Southgate Dr.,,43.489566,-80.203991,,,,1,0
+Route16-1631_300 Clair (Water Tower),1631,300 Clair (Water Tower),,43.492158,-80.200168,,,,1,0
+Route16-1632_Bishop Macdonell High School,1632,Bishop Macdonell High School,,43.495285,-80.195641,,,,1,0
+Route16-1633_Gosling Gardens at Clair Rd. W.,1633,Gosling Gardens at Clair Rd. W.,,43.499106,-80.191290,,,,1,0
+Route16-1634_Gosling Garden Park,1634,Gosling Garden Park,,43.501367,-80.192958,,,,1,0
+Route16-1635_Gosling Garden at Clairfields Dr. W.,1635,Gosling Garden at Clairfields Dr. W.,,43.502542,-80.194578,,,,1,0
+Route16-1636_Gordon St. at Westminster Woods,1636,Gordon St. at Westminster Woods,,43.506090,-80.194374,,,,1,0
+Route16-1637_Gordon @ Lowes,1637,Gordon @ Lowes,,43.508962,-80.19556,,,,1,0
+Route16-1638_Gordon St. at Continuing Education,1638,Gordon St. at Continuing Education,,43.511767,-80.196885,,,,1,0
+Route16-1639_Gordon St. at Arkell Rd.,1639,Gordon St. at Arkell Rd.,,43.514027,-80.199648,,,,1,0
+Route16-1640_Gordon St. at Valley Rd.,1640,Gordon St. at Valley Rd.,,43.516653,-80.203242,,,,1,0
+Route16-1641_Gordon St. at Landsdown Dr.,1641,Gordon St. at Landsdown Dr.,,43.518854,-80.205813,,,,1,0
+Route16-1642_Gordon St. at Harts Lane,1642,Gordon St. at Harts Lane,,43.519609,-80.207455,,,,1,0
+Route16-1643_1030 Gordon St.,1643,1030 Gordon St.,,43.520895,-80.210036,,,,1,0
+Route16-1644_Gordon St. at Kortright Rd.,1644,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,1,0
+Route16-1645_Gordon St. at Hands Dr.,1645,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,1,0
+Route16-1646_Gordon St. at Monticello Cres.,1646,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,1,0
+Route16-1647_Gordon St. at South Ring Rd.,1647,Gordon St. at South Ring Rd.,,43.527335,-80.225692,,,,1,0
+Route16-1648_Gordon St. at Vet College,1648,Gordon St. at Vet College,,43.531442,-80.231459,,,,1,0
+Route16-1649_Gordon St. at Macdonald Stewart Art Centre,1649,Gordon St. at Macdonald Stewart Art Centre,,43.532842,-80.233321,,,,1,0
+Route16-1650_Gordon St. at Dormie Lane,1650,Gordon St. at Dormie Lane,,43.536904,-80.239148,,,,1,0
+Route16-1651_Gordon St. at Water St.,1651,Gordon St. at Water St.,,43.538124,-80.240880,,,,1,0
+Route16-1652_Wellington St. at Wellington Plaza,1652,Wellington St. at Wellington Plaza,,43.541440,-80.244076,,,,1,0
+Route16-1653_Wyndham St. at Fountain St.,1653,Wyndham St. at Fountain St.,,43.543369,-80.245192,,,,1,0
+Route16-1654_Guelph Central Station,1654,Guelph Central Station,,43.545180,-80.246050,,,,2,0
+Route Gordon Corridor-0_University Dep,0,University Dep.,,43.529922,-80.225029,,,,0,2
+Route Gordon Corridor-1_Gordon St. at Stone Rd. W.,1,Gordon St. at Stone Rd. W.,,43.527351,-80.226173,,,,0,1
+Route Gordon Corridor-2_Gordon St. at Harvard Rd.,2,Gordon St. at Harvard Rd.,,43.525457,-80.221185,,,,0,1
+Route Gordon Corridor-3_Gordon St. at Kortright Rd.,3,Gordon St. at Kortright Rd.,,43.522309,-80.213484,,,,0,1
+Route Gordon Corridor-4_Gordon St. at Harts Lane,4,Gordon St. at Harts Lane,,43.519571,-80.207956,,,,0,1
+Route Gordon Corridor-5_1155 Gordon St.,5,1155 Gordon St.,,43.518045,-80.205824,,,,0,1
+Route Gordon Corridor-6_Gordon St. at Edinburgh Rd. S.,6,Gordon St. at Edinburgh Rd. S.,,43.516595,-80.203694,,,,0,1
+Route Gordon Corridor-7_Gordon @ Arkell,7,Gordon @ Arkell,,43.513888,-80.19989,,,,0,1
+Route Gordon Corridor-8_1417Gordon,8,1417Gordon,,43.511734,-80.197178,,,,0,1
+Route Gordon Corridor-9_Gordon @Lowes,9,Gordon @Lowes,,43.508884,-80.19581,,,,0,1
+Route Gordon Corridor-10_Gordon @ Clairfields,10,Gordon @ Clairfields,,43.505161,-80.194351,,,,0,1
+Route Gordon Corridor-11_Gosling Gardens at Clair Rd. W.,11,Gosling Gardens at Clair Rd. W.,,43.499106,-80.191290,,,,0,1
+Route Gordon Corridor-12_Gosling Garden Park,12,Gosling Garden Park,,43.501367,-80.192958,,,,0,1
+Route Gordon Corridor-13_Gosling Garden at Clairfields Dr. W.,13,Gosling Garden at Clairfields Dr. W.,,43.502542,-80.194578,,,,0,1
+Route Gordon Corridor-14_Gordon St. at Westminster Woods,14,Gordon St. at Westminster Woods,,43.506090,-80.194374,,,,0,1
+Route Gordon Corridor-15_Gordon St. at Lowes Rd.,15,Gordon St. at Lowes Rd.,,43.509005,-80.195565,,,,0,1
+Route Gordon Corridor-16_Gordon St. at Continuing Education,16,Gordon St. at Continuing Education,,43.511767,-80.196885,,,,0,1
+Route Gordon Corridor-17_Gordon St. at Arkell Rd.,17,Gordon St. at Arkell Rd.,,43.514027,-80.199648,,,,0,1
+Route Gordon Corridor-18_Gordon St. at Valley Rd.,18,Gordon St. at Valley Rd.,,43.516653,-80.203242,,,,0,1
+Route Gordon Corridor-19_Gordon St. at Landsdown Dr.,19,Gordon St. at Landsdown Dr.,,43.518854,-80.205813,,,,0,1
+Route Gordon Corridor-20_Gordon St. at Harts Lane,20,Gordon St. at Harts Lane,,43.519609,-80.207455,,,,0,1
+Route Gordon Corridor-21_1030 Gordon St.,21,1030 Gordon St.,,43.520895,-80.210036,,,,0,1
+Route Gordon Corridor-22_Gordon St. at Kortright Rd.,22,Gordon St. at Kortright Rd.,,43.522721,-80.213719,,,,0,1
+Route Gordon Corridor-23_Gordon St. at Hands Dr.,23,Gordon St. at Hands Dr.,,43.524266,-80.216865,,,,0,1
+Route Gordon Corridor-24_Gordon St. at Monticello Cres.,24,Gordon St. at Monticello Cres.,,43.525832,-80.221814,,,,0,1
+Route Gordon Corridor-25_Gordon St. at South Ring Rd. E.,25,Gordon St. at South Ring Rd. E.,,43.527055,-80.225258,,,,0,1
+Route Gordon Corridor-25_University Centre,26,University Centre,,43.529524,-80.224506,,,,0,2
+Route Gordon Corridor-26_University Centre,27,University Centre,,43.529524,-80.224506,,,,0,2

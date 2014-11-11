@@ -1,0 +1,11 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+FallEvening,1,1,1,1,1,0,0,20140101,20140630
+FallWeekday,1,1,1,1,1,0,0,20140101,20140630
+SpringEvening,1,1,1,1,1,0,0,20140101,20140630
+SpringExpress,1,1,1,1,1,0,0,20140101,20140630
+saturday,0,0,0,0,0,1,0,20140101,20140630
+sunday,0,0,0,0,0,0,1,20140101,20140630
+weekday,1,1,1,1,1,0,0,20140101,20140630
+weeknight,1,1,1,1,1,0,0,20140101,20140630
+MonWedFri,1,0,1,0,1,0,0,20140101,20140630
+TueThu,0,1,0,1,0,0,0,20140101,20140630
