@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+GT,Guelph Transit,http://guelph.ca/transit,America/Toronto,en,(519) 822-1811
