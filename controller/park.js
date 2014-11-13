@@ -12,6 +12,6 @@ exports.getPark = function*(){
 		" * cos( radians( parks.Longitude ) - radians("+latLong.lng+") ) " +
 		" + sin( radians("+latLong.lat+") ) " +
 		" * sin( radians( parks.Latitude ) ) ) ) AS distance " +
-		"from parks order by distance asc limit 10")
+		"from parks order by distance asc limit 3")
 	this.jsonResp(200, parks)
 }
