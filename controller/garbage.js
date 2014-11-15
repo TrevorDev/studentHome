@@ -1,4 +1,18 @@
 var request = require('co-request');
+
+Date.prototype.getWeek = function() { 
+    var determinedate = new Date(); 
+    determinedate.setFullYear(this.getFullYear(), this.getMonth(), this.getDate()); 
+    var D = determinedate.getDay(); 
+    if(D == 0) D = 7; 
+    determinedate.setDate(determinedate.getDate() + (4 - D)); 
+    var YN = determinedate.getFullYear(); 
+    var ZBDoCY = Math.floor((determinedate.getTime() - new Date(YN, 0, 1, -6)) / 86400000); 
+    var WN = 1 + Math.floor(ZBDoCY / 7); 
+    return WN; 
+}
+
+
 exports.getGarbageDay = function*(){
 	try{
 		var result = yield request({
@@ -12,6 +26,8 @@ exports.getGarbageDay = function*(){
 				'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
 			}
 		});
+		var curDate = new Date();
+		
 		//console.log(this.params)
 		var week = result.body.match(/View (.*?) collection schedule/)[1]
 		var day = result.body.match(/color:black\"> (.*?)<\/span>\n            <p>  <span style=\"font-size:1/)[1]
@@ -19,13 +35,15 @@ exports.getGarbageDay = function*(){
 		this.jsonResp(200, {
 			week: week,
 			day: day,
-			type: type
+			type: type,
+			recycleDay: week == "Week B" ? (curDate.getWeek() % 2 == 0 ? true: false) : (curDate.getWeek() % 2 == 1 ? true: false)
 		})
 	}catch(e){
 		this.jsonResp(200, {
 			week: "address not found",
 			day: "address not found",
-			type: "address not found"
+			type: "address not found",
+			recycleDay: "address not found"
 		})
 	}
 	
