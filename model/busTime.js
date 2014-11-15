@@ -7,6 +7,7 @@ var busTime = si.define('busTime',
         stop_id: sequelize.STRING,
         day: sequelize.STRING,
         time: sequelize.STRING,
+        newTime: sequelize.DATE,
         
     }, {
         classMethods: {

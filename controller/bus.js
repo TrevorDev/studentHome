@@ -32,6 +32,30 @@ var setNextTimes = function*(bus){
 	}else if(date.getDay() == 6){
 		dayType = "saturday"
 	}
-	var times = yield si.query("select * from busTime where stop_id = \"" + bus.stop_id + "\" and day = \"" + dayType+"\"")
+
+	var x = new Date()
+	var currentTime = x.getHours()+":"+x.getMinutes()+":"+x.getSeconds()
+
+
+	var times = yield si.query("select *, TIMEDIFF(time, \""+currentTime+"\") as timeDiff from busTime where stop_id = \"" + bus.stop_id + "\" and day = \"" + dayType+"\" having timeDiff > 0 order by timeDiff ASC limit 3")
+	
+
+	while(times.length == 0){
+		if(dayType == "saturday"){
+			dayType = "sunday"
+		}else if(dayType == "sunday"){
+			dayType = "weekday"
+		}
+		times = yield si.query("select * from busTime where stop_id = \"" + bus.stop_id + "\" and day = \"" + dayType+"\" limit 3")
+		for(var i = 0;i< times.length;i++){
+			times[i].timeDiff = "Over a day"
+		}
+		if(dayType == "weekday"){
+			break;
+		}
+	}
+
+
+
 	bus.times = times;
 }
