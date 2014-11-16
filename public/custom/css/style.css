@@ -12,7 +12,7 @@ main, .row, .inner {
     position:relative;
 }
 
-main:after, .row:after, .inner:after {
+main:after, .row:after, .inner:after, form:after {
     display:table;
     clear:both;
     content:"";
@@ -23,6 +23,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight:700;
+}
+
+h2 {
+	font-size:1.25em;
+	margin-top:0;
+}
+
+h3 {
+	font-size:1.125em;
+	margin:0;
 }
 
 * {
@@ -43,11 +53,19 @@ input {
     font-size:1em;
 }
 
+label {
+	display:block;
+	margin:0 1em 0 0;
+	font-size:0.75em;
+}
+
+input#addressNum {
+    width:50px;
+    text-align:center;
+}
+
 input[type="text"] {
-    width:30%;
-    padding:2px 5px;
-    float:left;
-    margin-right:20px;
+	padding:2px 5px;
 }
 
 input[type="submit"] {
@@ -75,11 +93,11 @@ select {
     margin:1em 0;
 }
 
-/* ================== Splash Screen =============== */
 main {
-	padding-bottom:96px;
+	padding:20px 0 30px;
 }
 
+/* ================== Splash Screen =============== */
 main#splashScreen form {
     position:relative;
     width:100%;
@@ -87,9 +105,10 @@ main#splashScreen form {
     margin:160px auto 40px;
 }
 
-main#splashScreen form input[type="submit"] {
+form input[type="submit"] {
     display:inline-block;
     padding:0.5em 1em;
+    margin:0.5em 1em;
     color:white;
 	border:none;
 	background: rgb(110,155,188); /* Old browsers */
@@ -104,7 +123,7 @@ main#splashScreen form input[type="submit"] {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e9bbc', endColorstr='#6f94bc',GradientType=0 ); /* IE6-8 */
 }
 
-main#splashScreen form input[type="submit"]:hover {
+form input[type="submit"]:hover {
 	background: rgb(111,148,188); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmOTRiYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZTliYmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -131,16 +150,101 @@ main#splashScreen form input[type="submit"]:hover {
    min-width:280px;
 }
 
+/* ================================ Dashboard ===================================== */
+main#dashboard {
+	position:relative;
+}
+
+main#dashboard:before {
+	position:absolute;
+	top:20px;
+	right:440px;
+	width:1px;
+	height:98%;
+	height:calc(100% - 50px);
+	height:-webkit-calc(100% - 50px);
+	background:#c1c1c1;
+	content:"";
+}
+
+.navbar {
+	border-bottom:1px solid #c1c1c1;
+	margin-bottom:0;
+}
+
+.navbar form {
+	float:left;
+}
+
+.navbar h1 {
+	margin:0.5em 0;
+	font-size:1.5em;
+}
+
+.leftColumn {
+	float:left;
+	width:50%;
+	width:calc(100% - 440px);
+	width:-webkit-calc(100% - 440px);
+
+}
+
+.rightColumn {
+	float:right;
+	width:400px;
+}
+
+#transitNextTimes {
+	width:250px;
+
+}
+
+#transitNextTimes p {
+	line-height:1.25;
+}
+
+#transitNextTimes span {
+	text-align:right;
+	display:block;
+}
+
+#transitNextTimes span.big {
+	float:right;
+	font-size:1.25em;
+	margin:0;
+	line-height:1;
+}
+
+#transitNextTimes span.med {
+	font-size:1em;
+}
+
+#transitNextTimes span.small {
+	font-size:0.75em;
+}
+
+.parkCard {
+	font-size:0.875em;
+	border:1px solid #c1c1c1;
+	box-shadow:0 0 5px 5px #c1c1c1;
+	margin:1em 0;
+	padding:1em;
+}
+
+.parkCard .address {
+	font-size:0.875em;
+	font-style:italic;
+	margin:0;
+	color:rgb(150,150,150);
+}
+
 /* =============================== Footer ================================= */
 footer {
 	background:#6e9bbc;
 	padding:0.5em 0;
 	font-weight:700;
 	color:white;
-	position:fixed;
-	bottom:0;
-	left:0;
-	width:100%;
+	position:relative;
 	box-shadow:0 0 10px #646464;
 	z-index:2;
 }
@@ -152,6 +256,18 @@ footer img {
 	margin-left:20px;
 }
 
+@media (min-height:769px) {
+	main {
+		padding-bottom:96px;
+	}
+
+	footer {
+		position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;
+	}
+}
 
 @media (max-width: 767px) {
 }

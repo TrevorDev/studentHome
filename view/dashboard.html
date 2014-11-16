@@ -1,33 +1,39 @@
 {% extends 'layout.html' %}
 {% block body %}
-<main id="dashboard">
-	<div class="navbar navbar-default navbar-static-top">
-		<div class="container-wide">
-			<div class="navbar-header">
-				<div class="left addressNumContainer">
-					<input type="text" name="addressNum" id="addressNum" placeholder="" />
-				</div>
-				<div class="right addressContainer">
-				<div class="searchableContainer styledSelect">
-					<select name="address" id="address" ng-controller="homeCtrl">
-						<div ng-repeat="street in streets">
-							<option value="[[street]]">[[street]]</option>
-						</div>
-					</select>
-				</div>
+
+	<div class="navbar">
+		<div class="inner">
+			<form  class="enterAddressForm" method="post">
+			  <div class="left addressNumContainer">
+			    <label for="addressNum">Street Number</label>
+			    <input type="text" name="addressNum" id="addressNum" placeholder="" />
 			  </div>
+			  <div class="left addressContainer">
+			    <label for="street">Street Name </label>
+			    <div class="searchableContainer styledSelect">
+			      <input id="street" />
+			    </div>
+			  </div>
+			  <input type="submit" value="Search" />
+			    <!-- <p class="center big">OR</p>
+			  <div class="center"><input type="submit" value="My Current Location" /></div> -->
 			</form>
+			<h1 class="right">My Student Home Dashboard</h1>
 		</div>
     </div>
-	<div class="left">
+    <main id="dashboard">
+	<div class="leftColumn">
 		<section id="transitSection">
+			<h2>Transit</h2>
 		</section>
 	</div>
-	<div class="right">
+	<div class="rightColumn">
 		<section id="wasteSection">
+			<h2>Waste Information</h2>
 		</section>
 
 		<section id="parksSection">
+			<h2>Nearby Parks</h2>
 			
 		</section>
 	</div>
@@ -39,28 +45,22 @@
 <script type="text/javascript">
 	var parkResult;
 	var parks;
-	var lookupInfo = document.cookie.studentHome;
-
-	function homeCtrl($scope, $http) {
-		$scope.streets = ["College W.", "Southcreek Trail", "Stone Rd."];
-		/*$.ajax({
-			url: "/api/streets/",
-			success: function(response) {
-				console.log("cool");
-				$scope.streets = response;
-			}
-		});*/
+	var streetName = getCookie("streetName");
+	var streetNum = getCookie("streetNum");
+	var busDT;
+	var busUC;
+	console.log(streetName + " " + streetNum);
+	if(streetNum == "" || streetName == "") {
+		echo(ERROR);
+		exit(0);
 	}
-	
 
 	$(function() {
-		$.ajax({
-			url: "/api/garbage/" + lookupInfo.streetNum + "/" + lookupInfo.streetName,
-			success: function(response) {
-				console.log(response);
-				parkResult = response;
-			}
-		});
+		$("#street").val(streetName);
+		$("#addressNum").val(streetNum);
+		getParkData();
+		getTransitData();
+		getWasteData();
 	});
 </script>
 

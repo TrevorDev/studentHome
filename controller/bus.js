@@ -20,7 +20,12 @@ exports.getBus = function*(){
 		" * sin( radians( busStops.latitude ) ) ) ) AS distance " +
 		"from busStops where UC > 0 order by distance asc limit 1")
 	yield setNextTimes(dt[0])
+	var routeName = dt[0].stop_id.split("-")[0].replace(/route/i, "")
+	dt[0].routeName = routeName
 	yield setNextTimes(uc[0])
+	routeName = uc[0].stop_id.split("-")[0].replace(/route/gi, "")
+
+	uc[0].routeName = routeName
 	this.jsonResp(200, {dt: dt[0], uc: uc[0]})
 }
 

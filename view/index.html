@@ -1,71 +1,21 @@
 {% extends 'layout.html' %}
 {% block body %}
-<div id="container">
-  <main id="splashScreen">
+<main id="splashScreen">
   <form  class="enterAddressForm" method="post">
   <h1>Enter <span>your Address:</span></h1>
   <div class="left addressNumContainer">
-    <label for="addressNum">Street Number</p>
+    <label for="addressNum">Street Number</label>
     <input type="text" name="addressNum" id="addressNum" placeholder="" />
   </div>
-  <div class="right addressContainer">
+  <div class="left addressContainer">
     <label for="street">Street Name </label>
     <div class="searchableContainer styledSelect">
       <input id="street" />
     </div>
   </div>
-  <div class="center" style="visibility:hidden;height:0;"><input type="submit" value="Search" /></div>
+  <input type="submit" value="Search" />
     <!-- <p class="center big">OR</p>
   <div class="center"><input type="submit" value="My Current Location" /></div> -->
   </form>
-  </main> 
-</div> 
-
-
-<script>
-$(document).ready(function() {
-    var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#street" ).autocomplete({
-      source: availableTags
-    });
-
-  $("form").submit(function() {
-    var street = $(this).find("#street").val();
-    var streetNum = $(this).find("#addressNum").val();
-    console.log(street + " " + streetNum);
-    $.ajax({
-        url: "/dashboard?street=" + street + "&number=" + streetNum,
-        success: function(response) {
-            $("#container").html(response);
-        }
-    });
-    //var newHTML = $.get(); 
-    //console.log(newHTML.responseText);
-    return false;
-  });
-});
-</script>
+</main> 
 {% endblock %}
