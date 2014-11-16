@@ -4,7 +4,7 @@ var si = database.getSequelizeInstance();
 
 exports.getBus = function*(){
 	var address = this.params['number']+' '+this.params['street']
-	var latLong = yield map.getLatLong(address);
+	var latLong = yield map.getLatLong(address + ", Guelph Ontario");
 	var dt = yield si.query("select *, " +
 		" ( 3959 * acos( cos( radians("+latLong.lat+") ) " +
 		" * cos( radians( busStops.latitude ) ) " +
@@ -26,7 +26,7 @@ exports.getBus = function*(){
 	routeName = uc[0].stop_id.split("-")[0].replace(/route/gi, "")
 
 	uc[0].routeName = routeName
-	this.jsonResp(200, {dt: dt[0], uc: uc[0]})
+	this.jsonResp(200, {latLong: latLong, dt: dt[0], uc: uc[0]})
 }
 
 var setNextTimes = function*(bus){

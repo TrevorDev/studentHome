@@ -1,3 +1,9 @@
+var markerHome;
+var markerBusUC;
+var markerBusDT;
+var bounds = new google.maps.LatLngBounds();
+var infowindow = new google.maps.InfoWindow(); 
+
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -52,21 +58,35 @@ function changeTimes(dropdown) {
     if(dropdown == null) {
         return "";
     }
-    console.log(dropdown.value);
     if(dropdown.value == "downtown") {
-        console.log(busDT);
+        markerBusUC.setMap(null);
+        markerBusDT.setMap(map);
         if(busDT != null) {
+            var busTimeOne = busDT.times[0] == null ? "" : busDT.times[0].timeDiff;
+            var busTimeTwo = busDT.times[1] == null ? "" : busDT.times[1].timeDiff;
+            var busTimeThree = busDT.times[2] == null ? "" : busDT.times[2].timeDiff;
+
+            $("#routeName").text(busDT.routeName);
             $("#stopName").text(busDT.stop_name);
-            $("#transitNextTimes").html($("<p>Time until next bus => <span class='big'>" + busDT.times[0].time + "</span><span class='med'>" + busDT.times[1].time + "</span><span class='small'>" + busDT.times[2].time + "</span>"));
+            $("#transitNextTimes").html($("<p>Time until next bus => <span class='big'>" + busTimeOne + "</span><span class='med'>" + busTimeTwo + "</span><span class='small'>" + busTimeThree + "</span>"));
         } else {
+            $("#routeName").text("N/A");
             $("#stopName").text("N/A");
             $("#transitNextTimes").html($("<p class='error'>Error, no bus goes straight to downtown from nearby that address</p>"));
         }
     } else {
+        markerBusUC.setMap(map);
+        markerBusDT.setMap(null);
         if(busUC != null) {
-            $("#stopName").text(busUC.stop_name);
-            $("#transitNextTimes").html($("<p>Time until next bus => <span class='big'>" + busUC.times[0].time + "</span><span class='med'>" + busUC.times[1].time + "</span><span class='small'>" + busUC.times[2].time + "</span>"));
+            var busTimeOne = busUC.times[0] == null ? "" : busUC.times[0].timeDiff;
+            var busTimeTwo = busUC.times[1] == null ? "" : busUC.times[1].timeDiff;
+            var busTimeThree = busUC.times[2] == null ? "" : busUC.times[2].timeDiff;
+
+            $("#routeName").text(busDT.routeName);
+            $("#stopName").text(busDT.stop_name);
+            $("#transitNextTimes").html($("<p>Time until next bus => <span class='big'>" + busTimeOne + "</span><span class='med'>" + busTimeTwo + "</span><span class='small'>" + busTimeThree + "</span>"));
         } else {
+            $("#routeName").text("N/A");
             $("#stopName").text("N/A");
             $("#transitNextTimes").html($("<p class='error'>Error, no bus goes straight to the University Centre from nearby that address</p>"));
         }
@@ -80,15 +100,53 @@ function getTransitData() {
             
             busDT = response.data.dt;
             busUC = response.data.uc;
-            console.log(response);
             var transitCard = $('<div class="transitCard card"></div>');
-            var dropdown = $("<select onChange='changeTimes(this)'><option selected value='school'>University Centre</option><option value='downtown'>Downtown</option></select>");
+            var dropdown = $("<span>Select your destination => </span><select onChange='changeTimes(this)'><option selected value='school'>University Centre</option><option value='downtown'>Downtown</option></select>");
             transitCard.html(dropdown);
             transitCard.append($("<p>Route Number => <span id='routeName'>" + busUC.routeName + "</span></p>"));
             transitCard.append($("<p>Stop Name => <span id='stopName'>" + busUC.stop_name + "</span></p>"));
             transitCard.append("<div id='transitNextTimes'></div>");
-            setTimeout(function() { changeTimes(dropdown); },100);
-            
+
+            markerHome = new google.maps.Marker({
+                position: new google.maps.LatLng(response.data.latLong.lat, response.data.latLong.lng),
+                map: map,
+                title: "Home"
+            });
+            bounds.extend(markerHome.position);
+            google.maps.event.addListener(markerHome, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(markerHome.title);
+                  infowindow.open(map, markerHome);
+                }
+            })(markerHome, 0));
+
+            markerBusUC = new google.maps.Marker({
+                position: new google.maps.LatLng(busUC.latitude, busUC.longitude),
+                map: map,
+                title: busUC.stop_name
+            });
+            bounds.extend(markerBusUC.position);
+            google.maps.event.addListener(markerBusUC, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(markerBusUC.title);
+                  infowindow.open(map, markerBusUC);
+                }
+            })(markerBusUC, 1));
+
+            markerBusDT = new google.maps.Marker({
+                position: new google.maps.LatLng(busDT.latitude, busDT.longitude),
+                map: map,
+                title: busDT.stop_name
+            });
+            bounds.extend(markerBusDT.position);
+            google.maps.event.addListener(markerBusDT, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(markerBusDT.title);
+                  infowindow.open(map, markerBusDT);
+                }
+            })(markerBusDT, 2));
+
+            setTimeout(function() { markerHome.setMap(map); changeTimes(dropdown); map.fitBounds(bounds);},100);            
 
             $("#transitSection").append(transitCard);
         },
@@ -101,7 +159,7 @@ function getTransitData() {
 function getWasteData() {
             //$scope.streets = ["College W.", "Southcreek Trail", "Stone Rd."];
 
-    /*$.ajax({
+    $.ajax({
         url: "/api/garbage/" + streetNum + "/" + streetName.toUpperCase(),
         success: function(response) {
             console.log(response);
@@ -110,11 +168,18 @@ function getWasteData() {
             var wasteCard = $('<div class="wasteCard card"></div>');
             wasteCard.html($("<p>Pickup Day => " + wasteResult.day + "</p>"));
             wasteCard.append($("<p>Pickup System => " + wasteResult.type + "</p>"));
-            wasteCard.append($("<p>Week => " + wasteResult.week + "</p>"));                
+            //wasteCard.append($("<p>Week => " + wasteResult.week + "</p>"));                
+
+            wasteCard.append("<p>To go out this week:</p>");
+            if(wasteResult.recycleDay == true) {
+                wasteCard.append("<div class='wasteWeek'><span class='circle compost'></span> Compost <span class='circle recycling'></span> Recycling</div>");
+            } else {
+                wasteCard.append("<div class='wasteWeek'><span class='circle compost'></span> Compost <span class='circle waste'></span> Waste</div>");
+            }
 
             $("#wasteSection").append(wasteCard);
         }
-    });*/
+    });
 }
 
 $(document).ready(function() {

@@ -18,6 +18,12 @@ main:after, .row:after, .inner:after, form:after {
     content:"";
 }
 
+#map-canvas { 
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
 }
 
@@ -158,7 +164,7 @@ main#dashboard {
 main#dashboard:before {
 	position:absolute;
 	top:20px;
-	right:440px;
+	right:420px;
 	width:1px;
 	height:98%;
 	height:calc(100% - 50px);
@@ -223,6 +229,10 @@ main#dashboard:before {
 	font-size:0.75em;
 }
 
+.transitCard select {
+	margin:1em 0;
+}
+
 .parkCard {
 	font-size:0.875em;
 	border:1px solid #c1c1c1;
@@ -237,6 +247,41 @@ main#dashboard:before {
 	margin:0;
 	color:rgb(150,150,150);
 }
+
+#wasteSection {
+	border-bottom:1px solid #c1c1c1;
+	margin-bottom:1em;
+}
+
+.wasteCard .wasteWeek {
+	margin:0.5em 0;
+	line-height:20px;
+	vertical-align:top;
+}
+
+.wasteCard .circle {
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	overflow:hidden;
+	display:inline-block;
+	background:black;
+	margin:0 0.2em 0 1em;
+}
+
+.wasteCard .circle.recycling {
+	background:#0000ff;
+}
+
+.wasteCard .circle.waste {
+	background:black;
+}
+
+.wasteCard .circle.compost {
+	background:#088a08;
+}
+
+
 
 /* =============================== Footer ================================= */
 footer {

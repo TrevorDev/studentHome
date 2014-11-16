@@ -4,7 +4,7 @@ var si = database.getSequelizeInstance();
 
 exports.getPark = function*(){
 	var address = this.params['number']+' '+this.params['street']
-	var latLong = yield map.getLatLong(address);
+	var latLong = yield map.getLatLong(address + ", Guelph Ontario");
 	//console.log(latLong)
 	var parks = yield si.query("select *, " +
 		" ( 3959 * acos( cos( radians("+latLong.lat+") ) " +
