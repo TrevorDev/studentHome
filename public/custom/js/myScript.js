@@ -4,6 +4,9 @@ var markerBusDT;
 var bounds = new google.maps.LatLngBounds();
 var infowindow = new google.maps.InfoWindow(); 
 
+var streetName = getCookie("streetName");
+var streetNum = getCookie("streetNum");
+
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -38,14 +41,54 @@ function getParkData() {
     $.ajax({
         url: "/api/park/"+ streetNum + "/" + streetName,
         success: function(response) {
+			var markerPark = new Array();
             for(var i = 0; i < response.data.length; i++) {
                 var park = response.data[i];
                 //console.log(park);
                 var parkCard = $('<div class="parkCard"></div>');
                 parkCard.html($("<h3>" + park.ParkName + "</h3>"));
                 parkCard.append($("<p class='address'>" + park.Address + "</p>"));
-
+				var parkCardHidden = $("<div class='hiddenDetails'></div>");
+				
+				parkCardHidden.html($("<h3>" + park.ParkName + "</h3>"));
+                parkCardHidden.append($("<p class='address'>" + park.Address + "</p>"));
+				
+				var parkCardHiddenTable = $("<table></table>");
+				parkCardHiddenTable.append("<tr><th>Ammenity</th><th>#</th></tr>");
+				
+				for (var key in park) {
+				  if (park.hasOwnProperty(key) && key != "Address" && key != "ParkName" && key != "id" && key != "createdAt" && key != "updatedAt" && key != "distance" && key != "Area") {
+					parkCardHiddenTable.append("<tr><td class='cat'>" + key + "</td><td class='num'>" + park[key] + "</td></tr>");
+				  } else if(park.hasOwnProperty(key) && key == "Area") {
+					parkCardHiddenTable.append("<tr><td class='cat'>" + key + "</td><td class='num'>" + park[key] + " km<sup>2</sup></td></tr>");
+				  } else if(park.hasOwnProperty(key) && key == "distance") {
+					parkCardHiddenTable.append("<tr><td class='cat'>Distance</td><td class='num'>" + parseFloat(Math.round(park[key] * 100) / 100).toFixed(2) + " km</td></tr>");
+				  } 
+				}
+				
+				parkCardHidden.append(parkCardHiddenTable);
+				parkCard.append(parkCardHidden);
+				parkCard.click(function () {
+					loadGalleryColorbox($(this));
+				});
+				
                 $("#parksSection").append(parkCard);
+				
+				markerPark[i] = new google.maps.Marker({
+					position: new google.maps.LatLng(park.Latitude, park.Longitude),
+					map: map,
+					icon: "public/images/icon-park.png",
+					title: park.ParkName
+					
+				});
+				//console.log(markerPark[i]);
+				//bounds.extend(markerPark.position);
+				google.maps.event.addListener(markerPark[i], 'click', (function(marker, i) {
+					return function() {
+					  infowindow.setContent(marker.title);
+					  infowindow.open(map, marker);
+					}
+				})(markerPark[i], i));
             }
         },
         failure: function(response) {
@@ -82,8 +125,8 @@ function changeTimes(dropdown) {
             var busTimeTwo = busUC.times[1] == null ? "" : busUC.times[1].timeDiff;
             var busTimeThree = busUC.times[2] == null ? "" : busUC.times[2].timeDiff;
 
-            $("#routeName").text(busDT.routeName);
-            $("#stopName").text(busDT.stop_name);
+            $("#routeName").text(busUC.routeName);
+            $("#stopName").text(busUC.stop_name);
             $("#transitNextTimes").html($("<p>Time until next bus => <span class='big'>" + busTimeOne + "</span><span class='med'>" + busTimeTwo + "</span><span class='small'>" + busTimeThree + "</span>"));
         } else {
             $("#routeName").text("N/A");
@@ -110,6 +153,7 @@ function getTransitData() {
             markerHome = new google.maps.Marker({
                 position: new google.maps.LatLng(response.data.latLong.lat, response.data.latLong.lng),
                 map: map,
+				icon: "public/images/icon-home.png",
                 title: "Home"
             });
             bounds.extend(markerHome.position);
@@ -162,7 +206,7 @@ function getWasteData() {
     $.ajax({
         url: "/api/garbage/" + streetNum + "/" + streetName.toUpperCase(),
         success: function(response) {
-            console.log(response);
+            //console.log(response);
             var wasteResult = response.data;
 
             var wasteCard = $('<div class="wasteCard card"></div>');
@@ -182,7 +226,40 @@ function getWasteData() {
     });
 }
 
-$(document).ready(function() {
+/* ---------- Loading gallery detail pages inline --------------- */
+function loadGalleryColorbox(clickedItem) {
+  	$("#popUpBoxBackground").remove();
+  	$("#popUpBox").remove();
+
+  	var popUpBox = $("<div id='popUpBox'></div>");
+  	var popUpBoxBackground = $("<div id='popUpBoxBackground'></div>");
+  	var closeBox = $("<div id='closeBox'><span>X</span> close</div>");
+  	var innerContainer = $("<div class='popupContainer'></div>");
+  
+  	
+  	innerContainer.html(clickedItem.find(".hiddenDetails").html());    
+  
+  	closeBox.click(function(){ 
+      	popUpBoxBackground.fadeOut(300, function() {$(this).remove();})  
+      	popUpBox.fadeOut(300, function() {$(this).remove();})  
+    });
+  
+  	popUpBoxBackground.click(function(){ 
+      	popUpBoxBackground.fadeOut(300, function() {$(this).remove();})  
+      	popUpBox.fadeOut(300, function() {$(this).remove();})  
+    });
+  
+  	popUpBox.html(closeBox);
+  	popUpBox.append(innerContainer);
+  
+    $("body").append(popUpBoxBackground); 	
+    $("body").append(popUpBox); 
+
+  
+  	popUpBoxBackground.fadeIn(300);
+  	popUpBox.fadeIn(300, function() {});
+}
+
     var availableTags = ["ABBEYWOOD CRES",
 "ABERDEEN ST",
 "ACORN PL",
@@ -1158,16 +1235,43 @@ $(document).ready(function() {
 "ZECCA DR",
 "ZESS CRT"];
 
-    $( "#street" ).autocomplete({
+$(function() {
+
+    $( "#streetNameID" ).autocomplete({
         source: availableTags
     });
 
     $("form").submit(function() {
-        var streetName = $(this).find("#street").val();
-        var streetNum = $(this).find("#addressNum").val();
-        setCookie("streetName", streetName, 1);
-        setCookie("streetNum", streetNum, 1);
-        document.location.href = "/dashboard";
+		$("form").find(".myError").detach();
+
+        streetName = $(this).find("#streetNameID").val().toUpperCase();
+        streetNum = $(this).find("#streetNumID").val();
+		
+		if((errorMsg = validateInfo(streetNum, streetName)) != "") {
+			$("form").append("<div class='myError error'>" + errorMsg + "</div>");
+			return false;
+		} else {
+			setCookie("streetName", streetName, 1);
+			setCookie("streetNum", streetNum, 1);
+			document.location.href = "/dashboard";
+		}
         return false;
     });
 });
+
+function validateInfo(curStreetNum, curStreetName) {	
+	if(!curStreetNum.match(/^\d+$/) || parseInt(curStreetNum) <= 0) {
+		return "Error parsing input, only numbers greater than 0 are allowed for the street number";
+	} else 
+	
+	if(!curStreetName.match(/^[A-Z ]+$/)) {
+		return "Error parsing input, only the letters A-Z and spaces are allowed for the street name";
+	}	
+	for(curTag in availableTags) {
+		if(availableTags.hasOwnProperty(curTag) && availableTags[curTag].indexOf(curStreetName) !== -1) {
+			streetName = availableTags[curTag];
+		}
+	}
+	
+	return "";
+}

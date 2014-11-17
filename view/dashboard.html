@@ -3,22 +3,23 @@
 
 	<div class="navbar">
 		<div class="inner">
+			<h1>My Student Home Dashboard</h1>
 			<form  class="enterAddressForm" method="post">
 			  <div class="left addressNumContainer">
-			    <label for="addressNum">Street Number</label>
-			    <input type="text" name="addressNum" id="addressNum" placeholder="" />
+			    <label for="streetNumID">Street Number</label>
+			    <input type="text" id="streetNumID" placeholder="" required />
 			  </div>
 			  <div class="left addressContainer">
-			    <label for="street">Street Name </label>
+			    <label for="streetNameID">Street Name </label>
 			    <div class="searchableContainer styledSelect">
-			      <input id="street" />
+			      <input id="streetNameID" required />
 			    </div>
 			  </div>
 			  <input type="submit" value="Search" />
 			    <!-- <p class="center big">OR</p>
 			  <div class="center"><input type="submit" value="My Current Location" /></div> -->
 			</form>
-			<h1 class="right">My Student Home Dashboard</h1>
+			
 		</div>
     </div>
     <main id="dashboard">
@@ -46,38 +47,31 @@
 <script type="text/javascript">
 	var parkResult;
 	var parks;
-	var streetName = getCookie("streetName");
-	var streetNum = getCookie("streetNum");
 	var busDT;
 	var busUC;
 	var map;
-	console.log(streetName + " " + streetNum);
 	if(streetNum == "" || streetName == "") {
-		echo(ERROR);
-		exit(0);
+		$("#dashboard").html("<div class='leftColumn'><div class='error'>Error loading address, please make sure cookies are enabled or try loading you address again above.</div></div>");
+	} else {
+		$(function() {
+			$("#streetNameID").val(streetName);
+			$("#streetNumID").val(streetNum);
+			getParkData();
+			getTransitData();
+			getWasteData();
+			
+		});
+
+
+		function initialize() {
+			var mapOptions = {
+			  center: { lat: 43.5500, lng: -80.2500},
+			  zoom: 12
+			};
+			map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
 	}
-
-	$(function() {
-		$("#street").val(streetName);
-		$("#addressNum").val(streetNum);
-		getParkData();
-		getTransitData();
-		getWasteData();
-	});
-
-
-	function initialize() {
-		var mapOptions = {
-		  center: { lat: 43.5500, lng: -80.2500},
-		  zoom: 12
-		};
-		map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
-<!-- <script src="/socket.io/socket.io.js"></script>-->
-<script>
-	//var socket = io();
-</script>
 {% endblock %}

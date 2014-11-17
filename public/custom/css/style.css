@@ -18,9 +18,19 @@ main:after, .row:after, .inner:after, form:after {
     content:"";
 }
 
+.error {
+	color:red;
+	font-weight:bold;
+}
+
+.myError {
+	display:block;
+	clear:both;
+}
+
 #map-canvas { 
 	height: 400px;
-	margin: 0;
+	margin: 1em 0;
 	padding: 0;
 }
 
@@ -65,7 +75,11 @@ label {
 	font-size:0.75em;
 }
 
-input#addressNum {
+input {
+	margin-right:1em;
+}
+
+input#streetNumID {
     width:50px;
     text-align:center;
 }
@@ -100,7 +114,7 @@ select {
 }
 
 main {
-	padding:20px 0 30px;
+	padding:20px 20px 30px;
 }
 
 /* ================== Splash Screen =============== */
@@ -114,7 +128,7 @@ main#splashScreen form {
 form input[type="submit"] {
     display:inline-block;
     padding:0.5em 1em;
-    margin:0.5em 1em;
+    margin:0.5em 0em;
     color:white;
 	border:none;
 	background: rgb(110,155,188); /* Old browsers */
@@ -164,13 +178,17 @@ main#dashboard {
 main#dashboard:before {
 	position:absolute;
 	top:20px;
-	right:420px;
+	right:340px;
 	width:1px;
 	height:98%;
 	height:calc(100% - 50px);
 	height:-webkit-calc(100% - 50px);
 	background:#c1c1c1;
 	content:"";
+}
+
+.navbar h1 {
+	float:right;
 }
 
 .navbar {
@@ -190,14 +208,14 @@ main#dashboard:before {
 .leftColumn {
 	float:left;
 	width:50%;
-	width:calc(100% - 440px);
-	width:-webkit-calc(100% - 440px);
+	width:calc(100% - 340px);
+	width:-webkit-calc(100% - 340px);
 
 }
 
 .rightColumn {
 	float:right;
-	width:400px;
+	width:300px;
 }
 
 #transitNextTimes {
@@ -239,13 +257,22 @@ main#dashboard:before {
 	box-shadow:0 0 5px 5px #c1c1c1;
 	margin:1em 0;
 	padding:1em;
+	cursor:pointer;
 }
 
-.parkCard .address {
+.parkCard:hover {
+	background:#f9f9f9;
+}
+
+.parkCard .address, #popUpBox .address  {
 	font-size:0.875em;
 	font-style:italic;
 	margin:0;
 	color:rgb(150,150,150);
+}
+
+.parkCard .hiddenDetails {
+	display:none;
 }
 
 #wasteSection {
@@ -301,6 +328,163 @@ footer img {
 	margin-left:20px;
 }
 
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
+#colorbox, #cboxOverlay, #cboxWrapper{position:relative; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxContent{position:relative; background:none;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    Users Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#popUpBoxBackground {
+	position:fixed;
+  	width:100%;
+  	height:100%;
+  	left:0;
+  	top:0;
+  	z-index:999;
+  	background:black;
+  	opacity:0.3;
+  	display:none;
+  	cursor:pointer;
+}
+
+#popUpBox {
+  	position:fixed;
+  	width:100%;
+  	height:100%;
+  	max-height:600px;
+  	max-width:320px;
+  	left:0;
+  	right:0;
+  	top:0;
+  	bottom:0;
+  	margin:auto;
+  	z-index:1000;
+  	background:white;
+  	display:none;
+  	padding:30px 20px;
+}
+
+#closeBox { 
+	position:absolute;
+  	right:5px;
+  	top:0px;
+  	cursor:pointer;
+  	height:30px;
+  	width:auto;
+  	font-size:16px;
+  	line-height:30px;
+  	text-align:center;
+  	z-index:2;
+  	font-weight:300;
+}
+
+#closeBox span {
+	font-weight:bold;  
+}
+
+#cboxWrapper {
+  background:#f6f6f6;
+}
+
+#popUpBox .popupContainer {
+	position:relative;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+
+#popUpBox  table {
+	padding:0 20px 1em;
+	border:1px solid #c1c1c1;
+  	border-collapse:collapse;
+	margin:1em auto;
+}
+
+#popUpBox table th {
+	background:#6e9bbc;
+	padding:2px;
+	text-align:center;
+	color:white;
+	border:1px solid #6e9bbc;
+}
+
+#popUpBox  table tr:nth-of-type(2n) {
+	background:#f1f1f1;
+}
+
+#popUpBox  table td {
+	padding:2px 5px;
+}
+
+#popUpBox .label, #popUpBox .value {
+	font-size:14px;  
+  	color:inherit;
+}
+
+#popUpBox .label {
+	font-weight:600;  
+}
+
+
+
+
+/*
+  The following fixes a problem where IE7+ replaces a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+
+.cboxIE6 #cboxTopLeft{background:url(images/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(images/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(images/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(images/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(images/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(images/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(images/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(images/ie6/borderMiddleRight.png);}
+*/
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
+
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxBottomLeft, #cboxBottomRight, #cboxBottomCenter {
+	display:none;  
+}
+
 @media (min-height:769px) {
 	main {
 		padding-bottom:96px;
@@ -315,6 +499,32 @@ footer img {
 }
 
 @media (max-width: 767px) {
+	.leftColumn, .rightColumn {
+		width:auto;
+		float:none;
+	}
+	
+	#map-canvas {
+		height:200px;
+	}
+	
+	main#dashboard:before {
+		display:none;
+	}
+	
+	#transitSection {
+		border-bottom: 1px solid #c1c1c1;
+		margin-bottom: 1em;
+		padding-bottom:1em;
+	}
+	
+	.navbar h1 {
+		float:none;
+	}
+	
+	.navbar form {
+		font-size:0.875em;
+	}
 }
 
 @media (max-width: 499px) { /* === Mobile === */
@@ -324,5 +534,9 @@ footer img {
 	
 	main#splashScreen h1 span {
 		display:block;
+	}
+	
+	.navbar h1 {
+		font-size:1.3em
 	}
 }
