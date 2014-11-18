@@ -8,10 +8,11 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.11.1/install.sh | bash
 source ~/.profile
 nvm install 0.11.13
 npm install
+npm install forever -g
 
 How to run our server
 ---------------------
-node --harmony app.js
+forever start -c "node --harmony" app.js
 
 Where our website is
 --------------------
