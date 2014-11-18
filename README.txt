@@ -17,3 +17,4 @@ forever start -c "node --harmony" app.js
 Where our website is
 --------------------
 Our website (once the server is running) is loaclhost:3000
+or http://104.131.173.16:3000/
